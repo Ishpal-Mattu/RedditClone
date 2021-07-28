@@ -1,0 +1,1080 @@
+[2021-5-14 16:30:41] 📨 >> GET / ""
+[2021-5-14 16:30:41] 💌 << 200 OK
+[2021-5-14 16:30:41] 📨 >> GET /user/1 ""
+[2021-5-14 16:30:41] 💌 << 200 OK
+[2021-5-14 16:30:41] 📨 >> GET /auth/login ""
+[2021-5-14 16:30:41] 💌 << 200 OK
+[2021-5-14 16:30:41] 📨 >> GET /user/1 ""
+[2021-5-14 16:30:41] 💌 << 200 OK
+[2021-5-14 16:30:41] 📨 >> POST /auth/login {
+	"email": "Peggie35@gmail.com",
+	"password": "uTDTsvHmDwbXTjM"
+}
+[2021-5-14 16:30:41] 💌 << 303 SEE_OTHER
+[2021-5-14 16:30:41] 📨 >> GET /user/2 ""
+[2021-5-14 16:30:41] 💌 << 200 OK
+[2021-5-14 16:30:41] 📨 >> GET /user/1 ""
+[2021-5-14 16:30:41] 💌 << 200 OK
+[2021-5-14 16:30:42] 📨 >> GET / ""
+[2021-5-14 16:30:42] 💌 << 200 OK
+[2021-5-14 16:30:42] 📨 >> GET /user/1 ""
+[2021-5-14 16:30:42] 💌 << 200 OK
+[2021-5-14 16:30:42] 📨 >> GET /category/2 ""
+[2021-5-14 16:30:42] 💌 << 200 OK
+[2021-5-14 16:30:42] 📨 >> GET /user/1 ""
+[2021-5-14 16:30:42] 💌 << 200 OK
+[2021-5-14 16:30:42] 📨 >> GET /post/3 ""
+[2021-5-14 16:30:42] 💌 << 200 OK
+[2021-5-14 16:30:42] 📨 >> GET /user/1 ""
+[2021-5-14 16:30:42] 📨 >> GET /user ""
+[2021-5-14 16:30:42] 📨 >> GET /post/3/bookmark ""
+[2021-5-14 16:30:42] 💌 << 200 OK
+[2021-5-14 16:30:42] 💌 << 200 OK
+[2021-5-14 16:30:42] 💌 << 200 OK
+[2021-5-14 16:32:54] 📨 >> GET / ""
+[2021-5-14 16:32:54] 💌 << 200 OK
+[2021-5-14 16:32:54] 📨 >> GET /user/1 ""
+[2021-5-14 16:32:54] 💌 << 200 OK
+[2021-5-14 16:32:54] 📨 >> GET /auth/login ""
+[2021-5-14 16:32:54] 💌 << 200 OK
+[2021-5-14 16:32:54] 📨 >> GET /user/1 ""
+[2021-5-14 16:32:54] 💌 << 200 OK
+[2021-5-14 16:32:54] 📨 >> POST /auth/login {
+	"email": "Jameson_Heathcote@gmail.com",
+	"password": "4SX7QRsLkNJu1w2"
+}
+[2021-5-14 16:32:54] 💌 << 303 SEE_OTHER
+[2021-5-14 16:32:54] 📨 >> GET /user/1 ""
+[2021-5-14 16:32:54] 💌 << 200 OK
+[2021-5-14 16:32:54] 📨 >> GET /user/1 ""
+[2021-5-14 16:32:54] 💌 << 200 OK
+[2021-5-14 16:32:54] 📨 >> GET / ""
+[2021-5-14 16:32:54] 💌 << 200 OK
+[2021-5-14 16:32:54] 📨 >> GET /user/1 ""
+[2021-5-14 16:32:54] 💌 << 200 OK
+[2021-5-14 16:32:54] 📨 >> GET /category/1 ""
+[2021-5-14 16:32:54] 💌 << 200 OK
+[2021-5-14 16:32:54] 📨 >> GET /user/1 ""
+[2021-5-14 16:32:54] 💌 << 200 OK
+[2021-5-14 16:32:54] 📨 >> GET /post/1 ""
+[2021-5-14 16:32:54] 💌 << 200 OK
+[2021-5-14 16:32:55] 📨 >> GET /user/1 ""
+[2021-5-14 16:32:55] 📨 >> GET /user ""
+[2021-5-14 16:32:55] 📨 >> GET /post/1/bookmark ""
+[2021-5-14 16:32:55] 💌 << 200 OK
+[2021-5-14 16:32:55] 💌 << 200 OK
+[2021-5-14 16:32:55] 💌 << 200 OK
+[2021-5-14 16:37:11] 📨 >> GET / ""
+[2021-5-14 16:37:11] 💌 << 200 OK
+[2021-5-14 16:37:11] 📨 >> GET /user/1 ""
+[2021-5-14 16:37:11] 💌 << 200 OK
+[2021-5-14 16:37:11] 📨 >> GET /auth/login ""
+[2021-5-14 16:37:11] 💌 << 200 OK
+[2021-5-14 16:37:11] 📨 >> GET /user/1 ""
+[2021-5-14 16:37:11] 💌 << 200 OK
+[2021-5-14 16:37:11] 📨 >> POST /auth/login {
+	"email": "Hanna87@gmail.com",
+	"password": "91ouTedbGh5Obdx"
+}
+[2021-5-14 16:37:11] 💌 << 303 SEE_OTHER
+[2021-5-14 16:37:11] 📨 >> GET /user/1 ""
+[2021-5-14 16:37:11] 💌 << 200 OK
+[2021-5-14 16:37:11] 📨 >> GET /user/1 ""
+[2021-5-14 16:37:11] 💌 << 200 OK
+[2021-5-14 16:37:11] 📨 >> GET / ""
+[2021-5-14 16:37:11] 💌 << 200 OK
+[2021-5-14 16:37:11] 📨 >> GET /user/1 ""
+[2021-5-14 16:37:11] 💌 << 200 OK
+[2021-5-14 16:37:11] 📨 >> GET /category/1 ""
+[2021-5-14 16:37:11] 💌 << 200 OK
+[2021-5-14 16:37:11] 📨 >> GET /user/1 ""
+[2021-5-14 16:37:11] 💌 << 200 OK
+[2021-5-14 16:37:11] 📨 >> GET /post/1 ""
+[2021-5-14 16:37:11] 💌 << 200 OK
+[2021-5-14 16:37:11] 📨 >> GET /user/1 ""
+[2021-5-14 16:37:11] 📨 >> GET /user ""
+[2021-5-14 16:37:11] 📨 >> GET /post/1/bookmark ""
+[2021-5-14 16:37:11] 💌 << 200 OK
+[2021-5-14 16:37:11] 💌 << 200 OK
+[2021-5-14 16:37:12] 💌 << 200 OK
+[2021-5-14 16:38:12] 📨 >> GET / ""
+[2021-5-14 16:38:12] 💌 << 200 OK
+[2021-5-14 16:38:13] 📨 >> GET /user/1 ""
+[2021-5-14 16:38:13] 💌 << 200 OK
+[2021-5-14 16:38:13] 📨 >> GET /auth/login ""
+[2021-5-14 16:38:13] 💌 << 200 OK
+[2021-5-14 16:38:13] 📨 >> GET /user/1 ""
+[2021-5-14 16:38:13] 💌 << 200 OK
+[2021-5-14 16:38:13] 📨 >> POST /auth/login {
+	"email": "Chaz_Hudson68@hotmail.com",
+	"password": "8Kydn9gGryoOvZ7"
+}
+[2021-5-14 16:38:13] 💌 << 303 SEE_OTHER
+[2021-5-14 16:38:13] 📨 >> GET /user/1 ""
+[2021-5-14 16:38:13] 💌 << 200 OK
+[2021-5-14 16:38:13] 📨 >> GET /user/1 ""
+[2021-5-14 16:38:13] 💌 << 200 OK
+[2021-5-14 16:38:13] 📨 >> GET / ""
+[2021-5-14 16:38:13] 💌 << 200 OK
+[2021-5-14 16:38:13] 📨 >> GET /user/1 ""
+[2021-5-14 16:38:13] 💌 << 200 OK
+[2021-5-14 16:38:13] 📨 >> GET /category/1 ""
+[2021-5-14 16:38:13] 💌 << 200 OK
+[2021-5-14 16:38:13] 📨 >> GET /user/1 ""
+[2021-5-14 16:38:13] 💌 << 200 OK
+[2021-5-14 16:38:13] 📨 >> GET /post/1 ""
+[2021-5-14 16:38:13] 💌 << 200 OK
+[2021-5-14 16:38:13] 📨 >> GET /user/1 ""
+[2021-5-14 16:38:13] 📨 >> GET /user ""
+[2021-5-14 16:38:13] 📨 >> GET /post/1/bookmark ""
+[2021-5-14 16:38:13] 💌 << 200 OK
+[2021-5-14 16:38:13] 💌 << 200 OK
+[2021-5-14 16:38:13] 💌 << 200 OK
+[2021-5-14 16:56:47] 📨 >> GET / ""
+[2021-5-14 16:56:47] 💌 << 200 OK
+[2021-5-14 16:56:47] 📨 >> GET /user/1 ""
+[2021-5-14 16:56:47] 💌 << 200 OK
+[2021-5-14 16:56:47] 📨 >> GET /auth/login ""
+[2021-5-14 16:56:47] 💌 << 200 OK
+[2021-5-14 16:56:47] 📨 >> GET /user/1 ""
+[2021-5-14 16:56:47] 💌 << 200 OK
+[2021-5-14 16:56:47] 📨 >> POST /auth/login {
+	"email": "Merritt_Wisozk7@gmail.com",
+	"password": "tBCPlTXIrJBsKnu"
+}
+[2021-5-14 16:56:47] 💌 << 303 SEE_OTHER
+[2021-5-14 16:56:47] 📨 >> GET /user/1 ""
+[2021-5-14 16:56:47] 💌 << 200 OK
+[2021-5-14 16:56:47] 📨 >> GET /user/1 ""
+[2021-5-14 16:56:47] 💌 << 200 OK
+[2021-5-14 16:56:47] 📨 >> GET / ""
+[2021-5-14 16:56:47] 💌 << 200 OK
+[2021-5-14 16:56:47] 📨 >> GET /user/1 ""
+[2021-5-14 16:56:47] 💌 << 200 OK
+[2021-5-14 16:56:47] 📨 >> GET /category/1 ""
+[2021-5-14 16:56:47] 💌 << 200 OK
+[2021-5-14 16:56:47] 📨 >> GET /user/1 ""
+[2021-5-14 16:56:47] 💌 << 200 OK
+[2021-5-14 16:56:48] 📨 >> GET /post/1 ""
+[2021-5-14 16:56:48] 💌 << 200 OK
+[2021-5-14 16:56:48] 📨 >> GET /user/1 ""
+[2021-5-14 16:56:48] 💌 << 200 OK
+[2021-5-14 16:59:41] 📨 >> GET / ""
+[2021-5-14 16:59:41] 💌 << 200 OK
+[2021-5-14 16:59:41] 📨 >> GET /user/1 ""
+[2021-5-14 16:59:41] 💌 << 200 OK
+[2021-5-14 16:59:41] 📨 >> GET /auth/login ""
+[2021-5-14 16:59:41] 💌 << 200 OK
+[2021-5-14 16:59:41] 📨 >> GET /user/1 ""
+[2021-5-14 16:59:41] 💌 << 200 OK
+[2021-5-14 16:59:41] 📨 >> POST /auth/login {
+	"email": "Amari.Kiehn64@yahoo.com",
+	"password": "Le9BOVBMVYQtO1X"
+}
+[2021-5-14 16:59:41] 💌 << 303 SEE_OTHER
+[2021-5-14 16:59:41] 📨 >> GET /user/1 ""
+[2021-5-14 16:59:41] 💌 << 200 OK
+[2021-5-14 16:59:41] 📨 >> GET /user/1 ""
+[2021-5-14 16:59:41] 💌 << 200 OK
+[2021-5-14 16:59:41] 📨 >> GET / ""
+[2021-5-14 16:59:41] 💌 << 200 OK
+[2021-5-14 16:59:41] 📨 >> GET /user/1 ""
+[2021-5-14 16:59:41] 💌 << 200 OK
+[2021-5-14 16:59:41] 📨 >> GET /category/1 ""
+[2021-5-14 16:59:41] 💌 << 200 OK
+[2021-5-14 16:59:41] 📨 >> GET /user/1 ""
+[2021-5-14 16:59:41] 💌 << 200 OK
+[2021-5-14 16:59:41] 📨 >> GET /post/1 ""
+[2021-5-14 16:59:42] 💌 << 200 OK
+[2021-5-14 16:59:42] 📨 >> GET /user/1 ""
+[2021-5-14 16:59:42] 💌 << 200 OK
+[2021-5-14 17:8:50] 📨 >> GET / ""
+[2021-5-14 17:8:50] 💌 << 200 OK
+[2021-5-14 17:8:50] 📨 >> GET /user/1 ""
+[2021-5-14 17:8:50] 💌 << 200 OK
+[2021-5-14 17:8:50] 📨 >> GET /auth/login ""
+[2021-5-14 17:8:50] 💌 << 200 OK
+[2021-5-14 17:8:50] 📨 >> GET /user/1 ""
+[2021-5-14 17:8:50] 💌 << 200 OK
+[2021-5-14 17:8:50] 📨 >> POST /auth/login {
+	"email": "Hadley54@gmail.com",
+	"password": "9ZhGbMhuhKob4sR"
+}
+[2021-5-14 17:8:50] 💌 << 303 SEE_OTHER
+[2021-5-14 17:8:50] 📨 >> GET /user/1 ""
+[2021-5-14 17:8:50] 💌 << 200 OK
+[2021-5-14 17:8:50] 📨 >> GET /user/1 ""
+[2021-5-14 17:8:50] 💌 << 200 OK
+[2021-5-14 17:8:51] 📨 >> GET / ""
+[2021-5-14 17:8:51] 💌 << 200 OK
+[2021-5-14 17:8:51] 📨 >> GET /user/1 ""
+[2021-5-14 17:8:51] 💌 << 200 OK
+[2021-5-14 17:8:51] 📨 >> GET /category/1 ""
+[2021-5-14 17:8:51] 💌 << 200 OK
+[2021-5-14 17:8:51] 📨 >> GET /user/1 ""
+[2021-5-14 17:8:51] 💌 << 200 OK
+[2021-5-14 17:8:51] 📨 >> GET /post/1 ""
+[2021-5-14 17:8:51] 💌 << 200 OK
+[2021-5-14 17:8:51] 📨 >> GET /user/1 ""
+[2021-5-14 17:8:51] 💌 << 200 OK
+[2021-5-14 17:9:59] 📨 >> GET / ""
+[2021-5-14 17:9:59] 💌 << 200 OK
+[2021-5-14 17:9:59] 📨 >> GET /user/1 ""
+[2021-5-14 17:9:59] 💌 << 200 OK
+[2021-5-14 17:10:0] 📨 >> GET /auth/login ""
+[2021-5-14 17:10:0] 💌 << 200 OK
+[2021-5-14 17:10:0] 📨 >> GET /user/1 ""
+[2021-5-14 17:10:0] 💌 << 200 OK
+[2021-5-14 17:10:0] 📨 >> POST /auth/login {
+	"email": "Aurore_Sauer49@gmail.com",
+	"password": "7ibFbnZ7BRGV8Cq"
+}
+[2021-5-14 17:10:0] 💌 << 303 SEE_OTHER
+[2021-5-14 17:10:0] 📨 >> GET /user/1 ""
+[2021-5-14 17:10:0] 💌 << 200 OK
+[2021-5-14 17:10:0] 📨 >> GET /user/1 ""
+[2021-5-14 17:10:0] 💌 << 200 OK
+[2021-5-14 17:10:0] 📨 >> GET / ""
+[2021-5-14 17:10:0] 💌 << 200 OK
+[2021-5-14 17:10:0] 📨 >> GET /user/1 ""
+[2021-5-14 17:10:0] 💌 << 200 OK
+[2021-5-14 17:10:0] 📨 >> GET /category/1 ""
+[2021-5-14 17:10:0] 💌 << 200 OK
+[2021-5-14 17:10:0] 📨 >> GET /user/1 ""
+[2021-5-14 17:10:0] 💌 << 200 OK
+[2021-5-14 17:10:0] 📨 >> GET /post/1 ""
+[2021-5-14 17:10:0] 💌 << 200 OK
+[2021-5-14 17:10:0] 📨 >> GET /user/1 ""
+[2021-5-14 17:10:0] 💌 << 200 OK
+[2021-5-14 17:11:55] 📨 >> GET / ""
+[2021-5-14 17:11:55] 💌 << 200 OK
+[2021-5-14 17:11:55] 📨 >> GET /user/1 ""
+[2021-5-14 17:11:55] 💌 << 200 OK
+[2021-5-14 17:11:55] 📨 >> GET /auth/login ""
+[2021-5-14 17:11:55] 💌 << 200 OK
+[2021-5-14 17:11:55] 📨 >> GET /user/1 ""
+[2021-5-14 17:11:55] 💌 << 200 OK
+[2021-5-14 17:11:55] 📨 >> POST /auth/login {
+	"email": "Hector_Doyle20@gmail.com",
+	"password": "rvjyVJGTdPIkAD3"
+}
+[2021-5-14 17:11:55] 💌 << 303 SEE_OTHER
+[2021-5-14 17:11:55] 📨 >> GET /user/1 ""
+[2021-5-14 17:11:55] 💌 << 200 OK
+[2021-5-14 17:11:56] 📨 >> GET /user/1 ""
+[2021-5-14 17:11:56] 💌 << 200 OK
+[2021-5-14 17:11:56] 📨 >> GET / ""
+[2021-5-14 17:11:56] 💌 << 200 OK
+[2021-5-14 17:11:56] 📨 >> GET /user/1 ""
+[2021-5-14 17:11:56] 💌 << 200 OK
+[2021-5-14 17:11:56] 📨 >> GET /category/1 ""
+[2021-5-14 17:11:56] 💌 << 200 OK
+[2021-5-14 17:11:56] 📨 >> GET /user/1 ""
+[2021-5-14 17:11:56] 💌 << 200 OK
+[2021-5-14 17:11:56] 📨 >> GET /post/1 ""
+[2021-5-14 17:11:56] 💌 << 200 OK
+[2021-5-14 17:13:25] 📨 >> GET / ""
+[2021-5-14 17:13:25] 💌 << 200 OK
+[2021-5-14 17:13:25] 📨 >> GET /user/1 ""
+[2021-5-14 17:13:25] 💌 << 200 OK
+[2021-5-14 17:13:25] 📨 >> GET /auth/login ""
+[2021-5-14 17:13:25] 💌 << 200 OK
+[2021-5-14 17:13:25] 📨 >> GET /user/1 ""
+[2021-5-14 17:13:25] 💌 << 200 OK
+[2021-5-14 17:13:25] 📨 >> POST /auth/login {
+	"email": "Kyleigh.Kautzer12@hotmail.com",
+	"password": "C37TSk58DK2WuDv"
+}
+[2021-5-14 17:13:25] 💌 << 303 SEE_OTHER
+[2021-5-14 17:13:25] 📨 >> GET /user/1 ""
+[2021-5-14 17:13:25] 💌 << 200 OK
+[2021-5-14 17:13:26] 📨 >> GET /user/1 ""
+[2021-5-14 17:13:26] 💌 << 200 OK
+[2021-5-14 17:13:26] 📨 >> GET / ""
+[2021-5-14 17:13:26] 💌 << 200 OK
+[2021-5-14 17:13:26] 📨 >> GET /user/1 ""
+[2021-5-14 17:13:26] 💌 << 200 OK
+[2021-5-14 17:13:26] 📨 >> GET /category/1 ""
+[2021-5-14 17:13:26] 💌 << 200 OK
+[2021-5-14 17:13:26] 📨 >> GET /user/1 ""
+[2021-5-14 17:13:26] 💌 << 200 OK
+[2021-5-14 17:13:26] 📨 >> GET /post/1 ""
+[2021-5-14 17:13:26] 💌 << 200 OK
+[2021-5-14 17:13:56] 📨 >> GET /post/1 ""
+[2021-5-14 17:13:56] 💌 << 200 OK
+[2021-5-14 17:14:45] 📨 >> GET / ""
+[2021-5-14 17:14:45] 💌 << 200 OK
+[2021-5-14 17:14:46] 📨 >> GET /user/1 ""
+[2021-5-14 17:14:46] 💌 << 200 OK
+[2021-5-14 17:14:46] 📨 >> GET /auth/login ""
+[2021-5-14 17:14:46] 💌 << 200 OK
+[2021-5-14 17:14:46] 📨 >> GET /user/1 ""
+[2021-5-14 17:14:46] 💌 << 200 OK
+[2021-5-14 17:14:46] 📨 >> POST /auth/login {
+	"email": "Caleigh.Von@hotmail.com",
+	"password": "41j_wSgt2cPk_GO"
+}
+[2021-5-14 17:14:46] 💌 << 303 SEE_OTHER
+[2021-5-14 17:14:46] 📨 >> GET /user/1 ""
+[2021-5-14 17:14:46] 💌 << 200 OK
+[2021-5-14 17:14:46] 📨 >> GET /user/1 ""
+[2021-5-14 17:14:46] 💌 << 200 OK
+[2021-5-14 17:14:46] 📨 >> GET / ""
+[2021-5-14 17:14:46] 💌 << 200 OK
+[2021-5-14 17:14:46] 📨 >> GET /user/1 ""
+[2021-5-14 17:14:46] 💌 << 200 OK
+[2021-5-14 17:14:46] 📨 >> GET /category/1 ""
+[2021-5-14 17:14:46] 💌 << 200 OK
+[2021-5-14 17:14:46] 📨 >> GET /user/1 ""
+[2021-5-14 17:14:46] 💌 << 200 OK
+[2021-5-14 17:14:46] 📨 >> GET /post/1 ""
+[2021-5-14 17:14:46] 💌 << 200 OK
+[2021-5-14 17:14:46] 📨 >> GET /user/1 ""
+[2021-5-14 17:14:46] 💌 << 200 OK
+[2021-5-14 17:14:46] 📨 >> GET /user ""
+[2021-5-14 17:14:46] 💌 << 200 OK
+[2021-5-14 17:14:52] 📨 >> GET /user ""
+[2021-5-14 17:14:52] 💌 << 200 OK
+[2021-5-14 17:15:59] 📨 >> GET / ""
+[2021-5-14 17:15:59] 💌 << 200 OK
+[2021-5-14 17:15:59] 📨 >> GET /user/1 ""
+[2021-5-14 17:15:59] 💌 << 200 OK
+[2021-5-14 17:15:59] 📨 >> GET /auth/login ""
+[2021-5-14 17:15:59] 💌 << 200 OK
+[2021-5-14 17:15:59] 📨 >> GET /user/1 ""
+[2021-5-14 17:15:59] 💌 << 200 OK
+[2021-5-14 17:15:59] 📨 >> POST /auth/login {
+	"email": "Cathrine.Crona@yahoo.com",
+	"password": "kFTGFh6QUgxaBdY"
+}
+[2021-5-14 17:15:59] 💌 << 303 SEE_OTHER
+[2021-5-14 17:15:59] 📨 >> GET /user/1 ""
+[2021-5-14 17:15:59] 💌 << 200 OK
+[2021-5-14 17:15:59] 📨 >> GET /user/1 ""
+[2021-5-14 17:15:59] 💌 << 200 OK
+[2021-5-14 17:15:59] 📨 >> GET / ""
+[2021-5-14 17:15:59] 💌 << 200 OK
+[2021-5-14 17:15:59] 📨 >> GET /user/1 ""
+[2021-5-14 17:15:59] 💌 << 200 OK
+[2021-5-14 17:15:59] 📨 >> GET /category/1 ""
+[2021-5-14 17:15:59] 💌 << 200 OK
+[2021-5-14 17:15:59] 📨 >> GET /user/1 ""
+[2021-5-14 17:15:59] 💌 << 200 OK
+[2021-5-14 17:15:59] 📨 >> GET /post/1 ""
+[2021-5-14 17:15:59] 💌 << 200 OK
+[2021-5-14 17:15:59] 📨 >> GET /user/1 ""
+[2021-5-14 17:15:59] 💌 << 200 OK
+[2021-5-14 17:37:42] 📨 >> GET / ""
+[2021-5-14 17:37:42] 💌 << 200 OK
+[2021-5-14 17:37:42] 📨 >> GET /user/1 ""
+[2021-5-14 17:37:42] 💌 << 200 OK
+[2021-5-14 17:37:42] 📨 >> GET /auth/login ""
+[2021-5-14 17:37:42] 💌 << 200 OK
+[2021-5-14 17:37:42] 📨 >> GET /user/1 ""
+[2021-5-14 17:37:42] 💌 << 200 OK
+[2021-5-14 17:37:42] 📨 >> POST /auth/login {
+	"email": "Heidi.Huel@gmail.com",
+	"password": "xiMRvyAPF3SOjlb"
+}
+[2021-5-14 17:37:42] 💌 << 303 SEE_OTHER
+[2021-5-14 17:37:42] 📨 >> GET /user/1 ""
+[2021-5-14 17:37:42] 💌 << 200 OK
+[2021-5-14 17:37:42] 📨 >> GET /user/1 ""
+[2021-5-14 17:37:42] 💌 << 200 OK
+[2021-5-14 17:37:42] 📨 >> GET / ""
+[2021-5-14 17:37:42] 💌 << 200 OK
+[2021-5-14 17:37:42] 📨 >> GET /user/1 ""
+[2021-5-14 17:37:42] 💌 << 200 OK
+[2021-5-14 17:37:42] 📨 >> GET /category/1 ""
+[2021-5-14 17:37:42] 💌 << 200 OK
+[2021-5-14 17:37:42] 📨 >> GET /user/1 ""
+[2021-5-14 17:37:42] 💌 << 200 OK
+[2021-5-14 17:37:42] 📨 >> GET /post/1 ""
+[2021-5-14 17:37:42] 💌 << 200 OK
+[2021-5-14 17:37:42] 📨 >> GET /user/1 ""
+[2021-5-14 17:37:42] 💌 << 200 OK
+[2021-5-14 17:37:43] 📨 >> GET /user ""
+[2021-5-14 17:37:43] 💌 << 200 OK
+[2021-5-14 17:37:43] 📨 >> GET /post/1/bookmark ""
+[2021-5-14 17:37:43] 💌 << 200 OK
+[2021-5-14 17:39:7] 📨 >> GET / ""
+[2021-5-14 17:39:7] 💌 << 200 OK
+[2021-5-14 17:39:7] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:7] 💌 << 200 OK
+[2021-5-14 17:39:8] 📨 >> GET /auth/login ""
+[2021-5-14 17:39:8] 💌 << 200 OK
+[2021-5-14 17:39:8] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:8] 💌 << 200 OK
+[2021-5-14 17:39:8] 📨 >> POST /auth/login {
+	"email": "Rhett15@hotmail.com",
+	"password": "umx0lSpIvWhPNgK"
+}
+[2021-5-14 17:39:8] 💌 << 303 SEE_OTHER
+[2021-5-14 17:39:8] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:8] 💌 << 200 OK
+[2021-5-14 17:39:8] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:8] 💌 << 200 OK
+[2021-5-14 17:39:8] 📨 >> GET / ""
+[2021-5-14 17:39:8] 💌 << 200 OK
+[2021-5-14 17:39:8] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:8] 💌 << 200 OK
+[2021-5-14 17:39:8] 📨 >> GET /category/1 ""
+[2021-5-14 17:39:8] 💌 << 200 OK
+[2021-5-14 17:39:8] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:8] 💌 << 200 OK
+[2021-5-14 17:39:8] 📨 >> GET /post/1 ""
+[2021-5-14 17:39:8] 💌 << 200 OK
+[2021-5-14 17:39:8] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:8] 💌 << 200 OK
+[2021-5-14 17:39:8] 📨 >> GET /user ""
+[2021-5-14 17:39:8] 💌 << 200 OK
+[2021-5-14 17:39:8] 📨 >> GET /post/1/bookmark ""
+[2021-5-14 17:39:8] 💌 << 200 OK
+[2021-5-14 17:39:53] 📨 >> GET / ""
+[2021-5-14 17:39:53] 💌 << 200 OK
+[2021-5-14 17:39:53] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:53] 💌 << 200 OK
+[2021-5-14 17:39:53] 📨 >> GET /auth/login ""
+[2021-5-14 17:39:53] 💌 << 200 OK
+[2021-5-14 17:39:53] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:53] 💌 << 200 OK
+[2021-5-14 17:39:54] 📨 >> POST /auth/login {
+	"email": "Anibal.Trantow33@yahoo.com",
+	"password": "tYwEQ07yiGbhm2R"
+}
+[2021-5-14 17:39:54] 💌 << 303 SEE_OTHER
+[2021-5-14 17:39:54] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:54] 💌 << 200 OK
+[2021-5-14 17:39:54] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:54] 💌 << 200 OK
+[2021-5-14 17:39:54] 📨 >> GET / ""
+[2021-5-14 17:39:54] 💌 << 200 OK
+[2021-5-14 17:39:54] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:54] 💌 << 200 OK
+[2021-5-14 17:39:54] 📨 >> GET /category/1 ""
+[2021-5-14 17:39:54] 💌 << 200 OK
+[2021-5-14 17:39:54] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:54] 💌 << 200 OK
+[2021-5-14 17:39:54] 📨 >> GET /post/1 ""
+[2021-5-14 17:39:54] 💌 << 200 OK
+[2021-5-14 17:39:54] 📨 >> GET /user/1 ""
+[2021-5-14 17:39:54] 💌 << 200 OK
+[2021-5-14 17:39:54] 📨 >> GET /user ""
+[2021-5-14 17:39:54] 💌 << 200 OK
+[2021-5-14 17:39:54] 📨 >> GET /post/1/bookmark ""
+[2021-5-14 17:39:54] 💌 << 200 OK
+[2021-5-14 17:42:23] 📨 >> GET / ""
+[2021-5-14 17:42:23] 💌 << 200 OK
+[2021-5-14 17:42:24] 📨 >> GET /user/1 ""
+[2021-5-14 17:42:24] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:162:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:270:30)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:42:24] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:273:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:42:24] 💌 << 400 BAD_REQUEST
+[2021-5-14 17:42:40] 📨 >> GET /auth/login ""
+[2021-5-14 17:42:40] 💌 << 200 OK
+[2021-5-14 17:42:41] 📨 >> GET /user/1 ""
+[2021-5-14 17:42:41] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:162:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:270:30)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:42:41] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:273:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:42:41] 💌 << 400 BAD_REQUEST
+[2021-5-14 17:42:44] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-14 17:42:44] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:126:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:42:44] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:147:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:42:44] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:228:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:42:44] 💌 << 400 BAD_REQUEST
+[2021-5-14 17:42:54] 📨 >> GET /auth/register ""
+[2021-5-14 17:42:54] 💌 << 200 OK
+[2021-5-14 17:42:54] 📨 >> GET /user/1 ""
+[2021-5-14 17:42:54] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:162:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:270:30)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:42:54] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:273:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:42:54] 💌 << 400 BAD_REQUEST
+[2021-5-14 17:44:40] 📨 >> POST /user {
+	"username": "ff",
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-14 17:44:40] 💌 << 303 SEE_OTHER
+[2021-5-14 17:44:40] 📨 >> GET /auth/login ""
+[2021-5-14 17:44:40] 💌 << 200 OK
+[2021-5-14 17:44:40] 📨 >> GET /user/1 ""
+[2021-5-14 17:44:40] 💌 << 200 OK
+[2021-5-14 17:44:42] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-14 17:44:42] 💌 << 303 SEE_OTHER
+[2021-5-14 17:44:42] 📨 >> GET /user/1 ""
+[2021-5-14 17:44:42] 💌 << 200 OK
+[2021-5-14 17:44:42] 📨 >> GET /user/1 ""
+[2021-5-14 17:44:42] 💌 << 200 OK
+[2021-5-14 17:44:58] 📨 >> GET / ""
+[2021-5-14 17:44:58] 💌 << 200 OK
+[2021-5-14 17:44:58] 📨 >> GET /user/1 ""
+[2021-5-14 17:44:58] 💌 << 200 OK
+[2021-5-14 17:45:2] 📨 >> POST /category {
+	"userId": "fg",
+	"title": "fdgdf",
+	"description": "fg"
+}
+[2021-5-14 17:45:2] 💌 << 303 SEE_OTHER
+[2021-5-14 17:45:2] 📨 >> GET / ""
+[2021-5-14 17:45:2] 💌 << 200 OK
+[2021-5-14 17:45:3] 📨 >> GET /user/1 ""
+[2021-5-14 17:45:3] 💌 << 200 OK
+[2021-5-14 17:45:4] 📨 >> GET /category/1 ""
+[2021-5-14 17:45:4] 💌 << 200 OK
+[2021-5-14 17:45:4] 📨 >> GET /user/1 ""
+[2021-5-14 17:45:4] 💌 << 200 OK
+[2021-5-14 17:45:11] 📨 >> POST /post {
+	"userId": "tht",
+	"title": "fdg",
+	"categoryId": "1",
+	"type": "Text",
+	"content": "ghthg"
+}
+[2021-5-14 17:45:11] 💌 << 303 SEE_OTHER
+[2021-5-14 17:45:11] 📨 >> GET /category/1 ""
+[2021-5-14 17:45:11] 💌 << 200 OK
+[2021-5-14 17:45:11] 📨 >> GET /user/1 ""
+[2021-5-14 17:45:11] 💌 << 200 OK
+[2021-5-14 17:45:14] 📨 >> GET /post/1 ""
+[2021-5-14 17:45:14] 💌 << 200 OK
+[2021-5-14 17:45:14] 📨 >> GET /user/1 ""
+[2021-5-14 17:45:14] 💌 << 200 OK
+[2021-5-14 17:45:16] 📨 >> GET /user ""
+[2021-5-14 17:45:16] 💌 << 200 OK
+[2021-5-14 17:45:16] 📨 >> GET /post/1/bookmark ""
+[2021-5-14 17:45:16] 💌 << 200 OK
+[2021-5-14 17:45:53] 📨 >> GET /post/1/bookmark ""
+[2021-5-14 17:45:53] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at Post.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/models/Post.js:218:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:69:13)
+    at async PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:45:53] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at PostController.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:71:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:45:53] 💌 << 400 BAD_REQUEST
+[2021-5-14 17:46:38] 📨 >> GET / ""
+[2021-5-14 17:46:38] 💌 << 200 OK
+[2021-5-14 17:46:38] 📨 >> GET /user/1 ""
+[2021-5-14 17:46:38] 💌 << 200 OK
+[2021-5-14 17:46:39] 📨 >> GET /category/1 ""
+[2021-5-14 17:46:39] 💌 << 200 OK
+[2021-5-14 17:46:39] 📨 >> GET /user/1 ""
+[2021-5-14 17:46:39] 💌 << 200 OK
+[2021-5-14 17:46:44] 📨 >> POST /post {
+	"userId": "fdb",
+	"title": "vcbxc",
+	"categoryId": "1",
+	"type": "Text",
+	"content": "htfgxvb "
+}
+[2021-5-14 17:46:44] 💌 << 303 SEE_OTHER
+[2021-5-14 17:46:44] 📨 >> GET /category/1 ""
+[2021-5-14 17:46:44] 💌 << 200 OK
+[2021-5-14 17:46:44] 📨 >> GET /user/1 ""
+[2021-5-14 17:46:44] 💌 << 200 OK
+[2021-5-14 17:46:51] 📨 >> GET /post/2 ""
+[2021-5-14 17:46:51] 💌 << 200 OK
+[2021-5-14 17:46:51] 📨 >> GET /user/1 ""
+[2021-5-14 17:46:51] 💌 << 200 OK
+[2021-5-14 17:47:7] 📨 >> GET /user ""
+[2021-5-14 17:47:7] 💌 << 200 OK
+[2021-5-14 17:48:38] 📨 >> GET /post/2/bookmark ""
+[2021-5-14 17:48:38] 💌 << 200 OK
+[2021-5-14 17:52:32] 📨 >> GET /post/2/bookmark ""
+[2021-5-14 17:52:32] PostException: Cannot bookmark Post: You must be logged in.
+    at PostController.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:64:19)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:27)
+    at Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:52)
+    at App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:38)
+    at Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-14 17:52:32] 💌 << 401 UNAUTHORIZED
+[2021-5-14 17:52:38] 📨 >> GET /auth/logout ""
+[2021-5-14 17:52:38] 💌 << 303 SEE_OTHER
+[2021-5-14 17:52:38] 📨 >> GET / ""
+[2021-5-14 17:52:38] 💌 << 200 OK
+[2021-5-14 17:52:38] 📨 >> GET /user/1 ""
+[2021-5-14 17:52:38] 💌 << 200 OK
+[2021-5-14 17:52:39] 📨 >> GET /auth/login ""
+[2021-5-14 17:52:39] 💌 << 200 OK
+[2021-5-14 17:52:39] 📨 >> GET /user/1 ""
+[2021-5-14 17:52:39] 💌 << 200 OK
+[2021-5-14 17:52:42] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-14 17:52:42] 💌 << 303 SEE_OTHER
+[2021-5-14 17:52:42] 📨 >> GET /user/1 ""
+[2021-5-14 17:52:42] 💌 << 200 OK
+[2021-5-14 17:52:42] 📨 >> GET /user/1 ""
+[2021-5-14 17:52:42] 💌 << 200 OK
+[2021-5-14 17:52:44] 📨 >> GET / ""
+[2021-5-14 17:52:44] 💌 << 200 OK
+[2021-5-14 17:52:44] 📨 >> GET /user/1 ""
+[2021-5-14 17:52:44] 💌 << 200 OK
+[2021-5-14 17:52:44] 📨 >> GET /category/1 ""
+[2021-5-14 17:52:45] 💌 << 200 OK
+[2021-5-14 17:52:45] 📨 >> GET /user/1 ""
+[2021-5-14 17:52:45] 💌 << 200 OK
+[2021-5-14 17:52:45] 📨 >> GET /post/2 ""
+[2021-5-14 17:52:45] 💌 << 200 OK
+[2021-5-14 17:52:45] 📨 >> GET /user/1 ""
+[2021-5-14 17:52:46] 💌 << 200 OK
+[2021-5-14 17:52:47] 📨 >> GET /user ""
+[2021-5-14 17:52:47] 💌 << 200 OK
+[2021-5-14 17:52:47] 📨 >> GET /post/2/bookmark ""
+[2021-5-14 17:52:47] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at Post.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/models/Post.js:218:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:69:13)
+    at async PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:52:47] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at PostController.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:71:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:52:47] 💌 << 400 BAD_REQUEST
+[2021-5-14 17:52:54] 📨 >> GET /post/1 ""
+[2021-5-14 17:52:55] 💌 << 200 OK
+[2021-5-14 17:52:55] 📨 >> GET /user/1 ""
+[2021-5-14 17:52:55] 💌 << 200 OK
+[2021-5-14 17:52:56] 📨 >> GET /user ""
+[2021-5-14 17:52:56] 💌 << 200 OK
+[2021-5-14 17:52:56] 📨 >> GET /post/1/bookmark ""
+[2021-5-14 17:52:56] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at Post.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/models/Post.js:218:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:69:13)
+    at async PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:52:56] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at PostController.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:71:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 17:52:56] 💌 << 400 BAD_REQUEST
+[2021-5-14 17:53:34] 📨 >> POST /post {
+	"userId": "6",
+	"title": "fgdfg",
+	"categoryId": "1",
+	"type": "Text",
+	"content": "fdgfg"
+}
+[2021-5-14 17:53:35] 💌 << 303 SEE_OTHER
+[2021-5-14 17:53:35] 📨 >> GET /category/1 ""
+[2021-5-14 17:53:35] 💌 << 200 OK
+[2021-5-14 17:53:35] 📨 >> GET /user/1 ""
+[2021-5-14 17:53:35] 💌 << 200 OK
+[2021-5-14 17:54:6] 📨 >> GET /post/3 ""
+[2021-5-14 17:54:6] 💌 << 200 OK
+[2021-5-14 17:54:6] 📨 >> GET /user/1 ""
+[2021-5-14 17:54:6] 💌 << 200 OK
+[2021-5-14 17:54:11] 📨 >> GET /user ""
+[2021-5-14 17:54:11] 💌 << 200 OK
+[2021-5-14 17:54:11] 📨 >> GET /post/3/bookmark ""
+[2021-5-14 17:54:11] 💌 << 200 OK
+[2021-5-14 17:56:41] 📨 >> GET /auth/logout ""
+[2021-5-14 17:56:41] 💌 << 303 SEE_OTHER
+[2021-5-14 17:56:41] 📨 >> GET / ""
+[2021-5-14 17:56:41] 💌 << 200 OK
+[2021-5-14 17:56:41] 📨 >> GET /user/1 ""
+[2021-5-14 17:56:41] 💌 << 200 OK
+[2021-5-14 17:56:43] 📨 >> GET /auth/login ""
+[2021-5-14 17:56:43] 💌 << 200 OK
+[2021-5-14 17:56:43] 📨 >> GET /user/1 ""
+[2021-5-14 17:56:43] 💌 << 200 OK
+[2021-5-14 17:56:46] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-14 17:56:46] 💌 << 303 SEE_OTHER
+[2021-5-14 17:56:46] 📨 >> GET /user/1 ""
+[2021-5-14 17:56:46] 💌 << 200 OK
+[2021-5-14 17:56:46] 📨 >> GET /user/1 ""
+[2021-5-14 17:56:46] 💌 << 200 OK
+[2021-5-14 17:56:49] 📨 >> GET / ""
+[2021-5-14 17:56:49] 💌 << 200 OK
+[2021-5-14 17:56:50] 📨 >> GET /user/1 ""
+[2021-5-14 17:56:50] 💌 << 200 OK
+[2021-5-14 17:56:51] 📨 >> GET /category/1 ""
+[2021-5-14 17:56:51] 💌 << 200 OK
+[2021-5-14 17:56:51] 📨 >> GET /user/1 ""
+[2021-5-14 17:56:51] 💌 << 200 OK
+[2021-5-14 17:56:57] 📨 >> POST /post {
+	"userId": "7",
+	"title": "hgfh",
+	"categoryId": "1",
+	"type": "Text",
+	"content": "fghg"
+}
+[2021-5-14 17:56:57] 💌 << 303 SEE_OTHER
+[2021-5-14 17:56:57] 📨 >> GET /category/1 ""
+[2021-5-14 17:56:57] 💌 << 200 OK
+[2021-5-14 17:56:57] 📨 >> GET /user/1 ""
+[2021-5-14 17:56:57] 💌 << 200 OK
+[2021-5-14 17:56:58] 📨 >> GET /post/4 ""
+[2021-5-14 17:56:58] 💌 << 200 OK
+[2021-5-14 17:56:58] 📨 >> GET /user/1 ""
+[2021-5-14 17:56:58] 💌 << 200 OK
+[2021-5-14 17:57:0] 📨 >> GET /user ""
+[2021-5-14 17:57:0] 💌 << 200 OK
+[2021-5-14 17:57:0] 📨 >> GET /post/4/bookmark ""
+[2021-5-14 17:57:0] 💌 << 200 OK
+[2021-5-14 17:57:33] 📨 >> GET /auth/logout ""
+[2021-5-14 17:57:33] 💌 << 303 SEE_OTHER
+[2021-5-14 17:57:33] 📨 >> GET / ""
+[2021-5-14 17:57:33] 💌 << 200 OK
+[2021-5-14 17:57:34] 📨 >> GET /user/1 ""
+[2021-5-14 17:57:34] 💌 << 200 OK
+[2021-5-14 17:57:35] 📨 >> GET /auth/login ""
+[2021-5-14 17:57:35] 💌 << 200 OK
+[2021-5-14 17:57:35] 📨 >> GET /user/1 ""
+[2021-5-14 17:57:35] 💌 << 200 OK
+[2021-5-14 17:57:38] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-14 17:57:38] 💌 << 303 SEE_OTHER
+[2021-5-14 17:57:38] 📨 >> GET /user/1 ""
+[2021-5-14 17:57:38] 💌 << 200 OK
+[2021-5-14 17:57:38] 📨 >> GET /user/1 ""
+[2021-5-14 17:57:38] 💌 << 200 OK
+[2021-5-14 17:57:40] 📨 >> GET / ""
+[2021-5-14 17:57:40] 💌 << 200 OK
+[2021-5-14 17:57:40] 📨 >> GET /user/1 ""
+[2021-5-14 17:57:40] 💌 << 200 OK
+[2021-5-14 17:57:42] 📨 >> GET /category/1 ""
+[2021-5-14 17:57:42] 💌 << 200 OK
+[2021-5-14 17:57:42] 📨 >> GET /user/1 ""
+[2021-5-14 17:57:42] 💌 << 200 OK
+[2021-5-14 17:57:49] 📨 >> POST /post {
+	"userId": "7",
+	"title": "cv",
+	"categoryId": "1",
+	"type": "Text",
+	"content": "fdgfdg"
+}
+[2021-5-14 17:57:49] 💌 << 303 SEE_OTHER
+[2021-5-14 17:57:49] 📨 >> GET /category/1 ""
+[2021-5-14 17:57:49] 💌 << 200 OK
+[2021-5-14 17:57:50] 📨 >> GET /user/1 ""
+[2021-5-14 17:57:50] 💌 << 200 OK
+[2021-5-14 17:57:50] 📨 >> GET /post/5 ""
+[2021-5-14 17:57:50] 💌 << 200 OK
+[2021-5-14 17:57:50] 📨 >> GET /user/1 ""
+[2021-5-14 17:57:50] 💌 << 200 OK
+[2021-5-14 17:58:56] 📨 >> GET /user ""
+[2021-5-14 17:58:56] 💌 << 200 OK
+[2021-5-14 17:59:2] 📨 >> GET /post/5/bookmark ""
+[2021-5-14 17:59:2] 💌 << 200 OK
+[2021-5-14 17:59:59] 📨 >> GET /auth/logout ""
+[2021-5-14 17:59:59] 💌 << 303 SEE_OTHER
+[2021-5-14 17:59:59] 📨 >> GET / ""
+[2021-5-14 17:59:59] 💌 << 200 OK
+[2021-5-14 17:59:59] 📨 >> GET /user/1 ""
+[2021-5-14 17:59:59] 💌 << 200 OK
+[2021-5-14 17:59:59] 📨 >> GET / ""
+[2021-5-14 17:59:59] 💌 << 200 OK
+[2021-5-14 17:59:59] 📨 >> GET /user/1 ""
+[2021-5-14 17:59:59] 💌 << 200 OK
+[2021-5-14 18:0:0] 📨 >> GET /auth/login ""
+[2021-5-14 18:0:0] 💌 << 200 OK
+[2021-5-14 18:0:1] 📨 >> GET /user/1 ""
+[2021-5-14 18:0:1] 💌 << 200 OK
+[2021-5-14 18:0:6] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-14 18:0:6] 💌 << 303 SEE_OTHER
+[2021-5-14 18:0:6] 📨 >> GET /user/1 ""
+[2021-5-14 18:0:6] 💌 << 200 OK
+[2021-5-14 18:0:6] 📨 >> GET /user/1 ""
+[2021-5-14 18:0:6] 💌 << 200 OK
+[2021-5-14 18:0:7] 📨 >> GET / ""
+[2021-5-14 18:0:7] 💌 << 200 OK
+[2021-5-14 18:0:7] 📨 >> GET /user/1 ""
+[2021-5-14 18:0:7] 💌 << 200 OK
+[2021-5-14 18:0:9] 📨 >> GET /category/1 ""
+[2021-5-14 18:0:9] 💌 << 200 OK
+[2021-5-14 18:0:9] 📨 >> GET /user/1 ""
+[2021-5-14 18:0:9] 💌 << 200 OK
+[2021-5-14 18:0:16] 📨 >> POST /post {
+	"userId": "44",
+	"title": "fdgd",
+	"categoryId": "1",
+	"type": "Text",
+	"content": "dfgfhfg"
+}
+[2021-5-14 18:0:16] 💌 << 303 SEE_OTHER
+[2021-5-14 18:0:16] 📨 >> GET /category/1 ""
+[2021-5-14 18:0:16] 💌 << 200 OK
+[2021-5-14 18:0:16] 📨 >> GET /user/1 ""
+[2021-5-14 18:0:16] 💌 << 200 OK
+[2021-5-14 18:0:17] 📨 >> GET /post/6 ""
+[2021-5-14 18:0:17] 💌 << 200 OK
+[2021-5-14 18:0:17] 📨 >> GET /user/1 ""
+[2021-5-14 18:0:17] 💌 << 200 OK
+[2021-5-14 18:0:24] 📨 >> GET /user ""
+[2021-5-14 18:0:24] 💌 << 200 OK
+[2021-5-14 18:0:27] 📨 >> GET /post/6/bookmark ""
+[2021-5-14 18:0:27] 💌 << 200 OK
+[2021-5-14 18:4:21] 📨 >> GET /post/6/bookmark ""
+[2021-5-14 18:4:21] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at Post.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/models/Post.js:218:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:69:13)
+    at async PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 18:4:21] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at PostController.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:71:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 18:4:21] 💌 << 400 BAD_REQUEST
+[2021-5-14 18:4:45] 📨 >> POST /post {
+	"userId": "3454",
+	"title": "dffg",
+	"categoryId": "1",
+	"type": "",
+	"content": "dfgfghgg"
+}
+[2021-5-14 18:4:45] PostException: Cannot create Post: Missing type.
+    at Function.create (/home/ishpal/web-ii/Assignments/5-Fetch/src/models/Post.js:86:19)
+    at PostController.new (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:167:40)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:27)
+    at Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:52)
+    at App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:38)
+    at Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-14 18:4:45] 💌 << 400 BAD_REQUEST
+[2021-5-14 18:4:54] 📨 >> POST /post {
+	"userId": "3454",
+	"title": "dffg",
+	"categoryId": "1",
+	"type": "Text",
+	"content": "dfgfghgg"
+}
+[2021-5-14 18:4:54] 💌 << 303 SEE_OTHER
+[2021-5-14 18:4:54] 📨 >> GET /category/1 ""
+[2021-5-14 18:4:54] 💌 << 200 OK
+[2021-5-14 18:4:55] 📨 >> GET /user/1 ""
+[2021-5-14 18:4:55] 💌 << 200 OK
+[2021-5-14 18:5:2] 📨 >> GET /post/7 ""
+[2021-5-14 18:5:2] 💌 << 200 OK
+[2021-5-14 18:5:2] 📨 >> GET /user/1 ""
+[2021-5-14 18:5:2] 💌 << 200 OK
+[2021-5-14 18:5:47] 📨 >> GET /user ""
+[2021-5-14 18:5:47] 💌 << 200 OK
+[2021-5-14 18:6:8] 📨 >> GET /post/7/bookmark ""
+[2021-5-14 18:6:8] 💌 << 200 OK
+[2021-5-14 18:8:28] 📨 >> GET / ""
+[2021-5-14 18:8:28] 💌 << 200 OK
+[2021-5-14 18:8:29] 📨 >> GET /user/1 ""
+[2021-5-14 18:8:29] 💌 << 200 OK
+[2021-5-14 18:8:29] 📨 >> GET /auth/login ""
+[2021-5-14 18:8:29] 💌 << 200 OK
+[2021-5-14 18:8:29] 📨 >> GET /user/1 ""
+[2021-5-14 18:8:29] 💌 << 200 OK
+[2021-5-14 18:8:29] 📨 >> POST /auth/login {
+	"email": "Silas53@yahoo.com",
+	"password": "q5ItfJg9e2pGkjq"
+}
+[2021-5-14 18:8:29] 💌 << 303 SEE_OTHER
+[2021-5-14 18:8:29] 📨 >> GET /user/2 ""
+[2021-5-14 18:8:29] 💌 << 200 OK
+[2021-5-14 18:8:29] 📨 >> GET /user/1 ""
+[2021-5-14 18:8:29] 💌 << 200 OK
+[2021-5-14 18:8:29] 📨 >> GET / ""
+[2021-5-14 18:8:29] 💌 << 200 OK
+[2021-5-14 18:8:29] 📨 >> GET /user/1 ""
+[2021-5-14 18:8:29] 💌 << 200 OK
+[2021-5-14 18:8:29] 📨 >> GET /category/2 ""
+[2021-5-14 18:8:29] 💌 << 200 OK
+[2021-5-14 18:8:29] 📨 >> GET /user/1 ""
+[2021-5-14 18:8:29] 💌 << 200 OK
+[2021-5-14 18:8:29] 📨 >> GET /post/8 ""
+[2021-5-14 18:8:29] 💌 << 200 OK
+[2021-5-14 18:8:29] 📨 >> GET /user/1 ""
+[2021-5-14 18:8:29] 💌 << 200 OK
+[2021-5-14 18:8:29] 📨 >> GET /user ""
+[2021-5-14 18:8:29] 💌 << 200 OK
+[2021-5-14 18:8:29] 📨 >> GET /post/8/bookmark ""
+[2021-5-14 18:8:29] 💌 << 200 OK
+[2021-5-14 18:8:45] 📨 >> GET /post/8/bookmark ""
+[2021-5-14 18:8:45] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at Post.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/models/Post.js:218:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:69:13)
+    at async PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 18:8:45] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at PostController.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:71:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 18:8:45] 💌 << 400 BAD_REQUEST
+[2021-5-14 18:8:47] 📨 >> GET /post/8/bookmark ""
+[2021-5-14 18:8:47] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at Post.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/models/Post.js:218:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:69:13)
+    at async PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 18:8:47] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at PostController.bookmark (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:71:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-14 18:8:47] 💌 << 400 BAD_REQUEST
+[2021-5-14 18:11:23] 📨 >> GET / ""
+[2021-5-14 18:11:23] 💌 << 200 OK
+[2021-5-14 18:11:23] 📨 >> GET /user/1 ""
+[2021-5-14 18:11:23] 💌 << 200 OK
+[2021-5-14 18:11:23] 📨 >> GET /auth/login ""
+[2021-5-14 18:11:23] 💌 << 200 OK
+[2021-5-14 18:11:23] 📨 >> GET /user/1 ""
+[2021-5-14 18:11:23] 💌 << 200 OK
+[2021-5-14 18:11:23] 📨 >> POST /auth/login {
+	"email": "Esta.Konopelski@hotmail.com",
+	"password": "2_m3B32idb9J1fO"
+}
+[2021-5-14 18:11:23] 💌 << 303 SEE_OTHER
+[2021-5-14 18:11:23] 📨 >> GET /user/1 ""
+[2021-5-14 18:11:23] 💌 << 200 OK
+[2021-5-14 18:11:23] 📨 >> GET /user/1 ""
+[2021-5-14 18:11:23] 💌 << 200 OK
+[2021-5-14 18:11:23] 📨 >> GET / ""
+[2021-5-14 18:11:23] 💌 << 200 OK
+[2021-5-14 18:11:23] 📨 >> GET /user/1 ""
+[2021-5-14 18:11:23] 💌 << 200 OK
+[2021-5-14 18:11:23] 📨 >> GET /category/1 ""
+[2021-5-14 18:11:23] 💌 << 200 OK
+[2021-5-14 18:11:23] 📨 >> GET /user/1 ""
+[2021-5-14 18:11:23] 💌 << 200 OK
+[2021-5-14 18:11:24] 📨 >> GET /post/1 ""
+[2021-5-14 18:11:24] 💌 << 200 OK
+[2021-5-14 18:11:24] 📨 >> GET /user/1 ""
+[2021-5-14 18:11:24] 💌 << 200 OK
+[2021-5-14 18:11:24] 📨 >> GET /user ""
+[2021-5-14 18:11:24] 💌 << 200 OK
+[2021-5-14 18:11:24] 📨 >> GET /post/1/bookmark ""
+[2021-5-14 18:11:24] 💌 << 200 OK
+[2021-5-14 18:21:43] 📨 >> GET / ""
+[2021-5-14 18:21:43] 💌 << 200 OK
+[2021-5-14 18:21:43] 📨 >> GET /user/1 ""
+[2021-5-14 18:21:43] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> GET /auth/login ""
+[2021-5-14 18:21:44] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> GET /user/1 ""
+[2021-5-14 18:21:44] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> POST /auth/login {
+	"email": "Zula.Kemmer@yahoo.com",
+	"password": "kLjcFWymq6uMnMs"
+}
+[2021-5-14 18:21:44] 💌 << 303 SEE_OTHER
+[2021-5-14 18:21:44] 📨 >> GET /user/1 ""
+[2021-5-14 18:21:44] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> GET /user/1 ""
+[2021-5-14 18:21:44] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> GET / ""
+[2021-5-14 18:21:44] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> GET /user/1 ""
+[2021-5-14 18:21:44] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> GET /category/1 ""
+[2021-5-14 18:21:44] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> GET /user/1 ""
+[2021-5-14 18:21:44] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> GET /post/1 ""
+[2021-5-14 18:21:44] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> GET /user/1 ""
+[2021-5-14 18:21:44] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> GET /user ""
+[2021-5-14 18:21:44] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> GET /post/1/bookmark ""
+[2021-5-14 18:21:44] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> GET /user/1 ""
+[2021-5-14 18:21:44] 💌 << 200 OK
+[2021-5-14 18:21:44] 📨 >> GET /user/1 ""
+[2021-5-14 18:21:44] 💌 << 200 OK

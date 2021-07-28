@@ -1,0 +1,1472 @@
+[2021-5-8 11:33:2] AuthException: Cannot log in: Missing email.
+    at Function.logIn (/home/ishpal/web-ii/Assignments/5-Fetch/src/models/User.js:307:19)
+    at AuthController.action [as logIn] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:123:45)
+    at AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:225:41)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/auth.test.js:44:26)
+    at Promise.then.completed (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/utils.js:276:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/utils.js:216:10)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+[2021-5-8 11:33:2] AuthException: Cannot log in: Missing email.
+    at AuthController.logIn (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:147:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:225:30)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/auth.test.js:44:2)
+[2021-5-8 11:33:2] AuthException: Cannot log in: Missing email.
+    at AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:228:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/auth.test.js:44:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-8 11:33:2] AuthException: Cannot log in: Missing password.
+    at Function.logIn (/home/ishpal/web-ii/Assignments/5-Fetch/src/models/User.js:310:19)
+    at AuthController.action [as logIn] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:123:45)
+    at AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:225:41)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/auth.test.js:56:26)
+    at Promise.then.completed (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/utils.js:276:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/utils.js:216:10)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+[2021-5-8 11:33:2] AuthException: Cannot log in: Missing password.
+    at AuthController.logIn (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:147:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:225:30)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/auth.test.js:56:2)
+[2021-5-8 11:33:2] AuthException: Cannot log in: Missing password.
+    at AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:228:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/auth.test.js:56:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-8 11:33:2] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:126:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:225:30)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/auth.test.js:68:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:2] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:147:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:225:30)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/auth.test.js:68:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:2] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:228:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/auth.test.js:68:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-8 11:33:2] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:126:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:225:30)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/auth.test.js:80:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:2] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:147:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:225:30)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/auth.test.js:80:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:2] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:228:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/auth.test.js:80:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-8 11:33:3] UserException: Cannot retrieve User: User does not exist with ID 94.
+    at UserController.show (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:127:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:235:30)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/user.test.js:95:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:3] UserException: Cannot retrieve User: User does not exist with ID 94.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:238:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/user.test.js:95:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-8 11:33:3] UserException: Cannot update User: You must be logged in.
+    at UserController.action [as edit] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:156:19)
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:235:41)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/user.test.js:143:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:3] UserException: Cannot update User: You must be logged in.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:238:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/user.test.js:143:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-8 11:33:3] UserException: Cannot update User: You cannot update a user other than yourself.
+    at UserController.edit (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:165:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:235:30)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/user.test.js:161:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:3] UserException: Cannot update User: You cannot update a user other than yourself.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:238:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/user.test.js:161:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-8 11:33:3] UserException: Cannot update User: No update parameters were provided.
+    at UserController.edit (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:172:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:235:30)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/user.test.js:182:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:3] UserException: Cannot update User: No update parameters were provided.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:238:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/user.test.js:182:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-8 11:33:3] UserException: Cannot delete User: You must be logged in.
+    at UserController.action [as destroy] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:205:19)
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:235:41)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/user.test.js:226:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:3] UserException: Cannot delete User: You must be logged in.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:238:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/user.test.js:226:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-8 11:33:3] UserException: Cannot delete User: You cannot delete a user other than yourself.
+    at UserController.destroy (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:213:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:235:30)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/user.test.js:243:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:3] UserException: Cannot delete User: You cannot delete a user other than yourself.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:238:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/user.test.js:243:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-8 11:33:4] CategoryException: Cannot create Category: You must be logged in.
+    at CategoryController.action [as new] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:59:19)
+    at CategoryController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:206:27)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/category.test.js:66:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:4] CategoryException: Cannot retrieve Category: Category does not exist with ID 12.
+    at CategoryController.show (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:83:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CategoryController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:206:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/category.test.js:126:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:5] CategoryException: Cannot update Category: You must be logged in.
+    at CategoryController.getEditForm (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:104:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CategoryController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:206:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/category.test.js:151:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:5] CategoryException: Cannot update Category: Category does not exist with ID 34.
+    at CategoryController.getEditForm (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:107:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CategoryController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:206:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/category.test.js:165:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:5] CategoryException: Cannot update Category: You cannot update a category created by someone other than yourself.
+    at CategoryController.getEditForm (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:110:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CategoryController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:206:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/category.test.js:180:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:5] CategoryException: Cannot update Category: You must be logged in.
+    at CategoryController.action [as edit] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:123:19)
+    at CategoryController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:206:27)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/category.test.js:232:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:5] CategoryException: Cannot update Category: Category does not exist with ID 48.
+    at CategoryController.edit (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:128:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CategoryController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:206:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/category.test.js:247:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:5] CategoryException: Cannot update Category: You cannot update a category created by someone other than yourself.
+    at CategoryController.edit (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:132:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CategoryController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:206:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/category.test.js:266:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:5] CategoryException: Cannot update Category: No update parameters were provided.
+    at CategoryController.edit (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:142:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CategoryController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:206:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/category.test.js:284:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:5] CategoryException: Cannot delete Category: You must be logged in.
+    at CategoryController.action [as destroy] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:175:19)
+    at CategoryController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:206:27)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/category.test.js:326:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-8 11:33:5] CategoryException: Cannot delete Category: Category does not exist with ID 13.
+    at CategoryController.destroy (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:180:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CategoryController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:206:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/category.test.js:341:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:5] CategoryException: Cannot delete Category: You cannot delete a category created by someone other than yourself.
+    at CategoryController.destroy (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:184:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CategoryController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CategoryController.js:206:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/category.test.js:356:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:6] PostException: Cannot create Post: You must be logged in.
+    at PostController.action [as new] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:164:19)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:27)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/post.test.js:72:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:6] PostException: Cannot retrieve Post: Post does not exist with ID 61.
+    at PostController.show (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:188:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/post.test.js:106:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:7] PostException: Cannot update Post: You must be logged in.
+    at PostController.getEditForm (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:258:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/post.test.js:131:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:7] PostException: Cannot update Post: Post does not exist with ID 83.
+    at PostController.getEditForm (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:261:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/post.test.js:145:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:7] PostException: Cannot update Post: You cannot update a post created by someone other than yourself.
+    at PostController.getEditForm (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:264:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/post.test.js:160:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:7] PostException: Cannot update Post: You must be logged in.
+    at PostController.edit (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:279:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/post.test.js:212:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:7] PostException: Cannot update Post: Post does not exist with ID 2.
+    at PostController.edit (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:282:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/post.test.js:227:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:8] PostException: Cannot update Post: You cannot update a post created by someone other than yourself.
+    at PostController.edit (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/post.test.js:243:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:8] PostException: Cannot update Post: No update parameters were provided.
+    at PostController.edit (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:296:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/post.test.js:258:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:8] PostException: Cannot delete Post: You must be logged in.
+    at PostController.action [as destroy] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:334:19)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:27)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/post.test.js:308:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-8 11:33:8] PostException: Cannot delete Post: Post does not exist with ID 100.
+    at PostController.destroy (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:340:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/post.test.js:323:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:8] PostException: Cannot delete Post: You cannot delete a post created by someone other than yourself.
+    at PostController.destroy (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:344:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:16)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/post.test.js:338:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:9] CommentException: Cannot create Comment: You must be logged in.
+    at CommentController.action [as new] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:173:19)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:31)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:71:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:9] CommentException: Cannot create Comment: You must be logged in.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:71:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:10] CommentException: Cannot retrieve Comment: Comment does not exist with ID 3.
+    at CommentController.show (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:197:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:20)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:104:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:10] CommentException: Cannot retrieve Comment: Comment does not exist with ID 3.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:104:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:10] CommentException: Cannot update Comment: You must be logged in.
+    at CommentController.getEditForm (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:272:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:20)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:129:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:10] CommentException: Cannot update Comment: You must be logged in.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:129:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:10] CommentException: Cannot update Comment: Comment does not exist with ID 20.
+    at CommentController.getEditForm (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:275:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:20)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:143:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:10] CommentException: Cannot update Comment: Comment does not exist with ID 20.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:143:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:11] CommentException: Cannot update Comment: You cannot update a comment created by someone other than yourself.
+    at CommentController.getEditForm (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:278:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:20)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:158:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:11] CommentException: Cannot update Comment: You cannot update a comment created by someone other than yourself.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:158:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:12] CommentException: Cannot update Comment: You must be logged in.
+    at CommentController.edit (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:291:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:20)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:209:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:12] CommentException: Cannot update Comment: You must be logged in.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:209:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:12] CommentException: Cannot update Comment: Comment does not exist with ID 51.
+    at CommentController.edit (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:294:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:20)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:224:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:12] CommentException: Cannot update Comment: Comment does not exist with ID 51.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:224:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:12] CommentException: Cannot update Comment: You cannot update a comment created by someone other than yourself.
+    at CommentController.edit (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:297:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:20)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:240:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:12] CommentException: Cannot update Comment: You cannot update a comment created by someone other than yourself.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:240:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:13] CommentException: Cannot update Comment: No update parameters were provided.
+    at CommentController.edit (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:302:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:20)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:255:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:13] CommentException: Cannot update Comment: No update parameters were provided.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:255:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:13] CommentException: Cannot delete Comment: You must be logged in.
+    at CommentController.action [as destroy] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:342:19)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:31)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:303:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-8 11:33:13] CommentException: Cannot delete Comment: You must be logged in.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:303:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:13] CommentException: Cannot delete Comment: Comment does not exist with ID 95.
+    at CommentController.destroy (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:348:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:20)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:318:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:13] CommentException: Cannot delete Comment: Comment does not exist with ID 95.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:318:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:13] CommentException: Cannot delete Comment: You cannot delete a comment created by someone other than yourself.
+    at CommentController.destroy (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:352:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:20)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:333:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:13] CommentException: Cannot delete Comment: You cannot delete a comment created by someone other than yourself.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/comment.test.js:333:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:15] PostException: Cannot bookmark Post: You must be logged in.
+    at PostController.action [as bookmark] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:64:19)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:27)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/bookmark.test.js:96:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:15] PostException: Cannot unbookmark Post: You must be logged in.
+    at PostController.action [as unbookmark] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:82:19)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:27)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/bookmark.test.js:108:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:16] CommentException: Cannot bookmark Comment: You must be logged in.
+    at CommentController.action [as bookmark] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:65:19)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:31)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/bookmark.test.js:172:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:16] CommentException: Cannot bookmark Comment: You must be logged in.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/bookmark.test.js:172:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:16] CommentException: Cannot unbookmark Comment: You must be logged in.
+    at CommentController.action [as unbookmark] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:84:19)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:31)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/bookmark.test.js:184:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:16] CommentException: Cannot unbookmark Comment: You must be logged in.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/bookmark.test.js:184:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:18] PostException: Cannot up vote Post: You must be logged in.
+    at PostController.action (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:101:19)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:27)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/vote.test.js:126:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:18] PostException: Cannot down vote Post: You must be logged in.
+    at PostController.action [as downvote] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:122:19)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:27)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/vote.test.js:138:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:18] PostException: Cannot unvote Post: You must be logged in.
+    at PostController.action (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:141:19)
+    at PostController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/PostController.js:367:27)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/vote.test.js:150:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:21] CommentException: Cannot up vote Comment: You must be logged in.
+    at CommentController.action (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:103:19)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:31)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/vote.test.js:396:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:21] CommentException: Cannot up vote Comment: You must be logged in.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/vote.test.js:396:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:22] CommentException: Cannot down vote Comment: You must be logged in.
+    at CommentController.action [as downVote] (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:124:19)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:31)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/vote.test.js:408:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:22] CommentException: Cannot down vote Comment: You must be logged in.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/vote.test.js:408:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 11:33:22] CommentException: Cannot unvote Comment: You must be logged in.
+    at CommentController.action (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:143:19)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:31)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/vote.test.js:420:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-8 11:33:22] CommentException: Cannot unvote Comment: You must be logged in.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/tests/controllers/vote.test.js:420:2)
+    at _callCircusTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/ishpal/web-ii/Assignments/5-Fetch/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-8 12:47:59] 📨 >> GET / ""
+[2021-5-8 12:47:59] 💌 << 200 OK
+[2021-5-8 12:47:59] 📨 >> GET /user/1 ""
+[2021-5-8 12:47:59] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:162:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:270:30)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-8 12:47:59] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:273:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-8 12:47:59] 💌 << 400 BAD_REQUEST
+[2021-5-8 12:48:2] 📨 >> GET /auth/register ""
+[2021-5-8 12:48:2] 💌 << 200 OK
+[2021-5-8 12:48:2] 📨 >> GET /user/1 ""
+[2021-5-8 12:48:2] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:162:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:270:30)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-8 12:48:2] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:273:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-8 12:48:2] 💌 << 400 BAD_REQUEST
+[2021-5-8 12:48:6] 📨 >> POST /user {
+	"username": "ff",
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-8 12:48:6] 💌 << 303 SEE_OTHER
+[2021-5-8 12:48:6] 📨 >> GET /auth/login ""
+[2021-5-8 12:48:6] 💌 << 200 OK
+[2021-5-8 12:48:6] 📨 >> GET /user/1 ""
+[2021-5-8 12:48:6] 💌 << 200 OK
+[2021-5-8 12:48:13] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-8 12:48:13] 💌 << 303 SEE_OTHER
+[2021-5-8 12:48:13] 📨 >> GET /user/1 ""
+[2021-5-8 12:48:13] 💌 << 200 OK
+[2021-5-8 12:48:13] 📨 >> GET /user/1 ""
+[2021-5-8 12:48:13] 💌 << 200 OK
+[2021-5-8 12:48:30] 📨 >> GET / ""
+[2021-5-8 12:48:30] 💌 << 200 OK
+[2021-5-8 12:48:30] 📨 >> GET /user/1 ""
+[2021-5-8 12:48:30] 💌 << 200 OK
+[2021-5-8 12:48:36] 📨 >> POST /category {
+	"userId": "yyh",
+	"title": "dgfd",
+	"description": "ddf"
+}
+[2021-5-8 12:48:36] 💌 << 303 SEE_OTHER
+[2021-5-8 12:48:36] 📨 >> GET / ""
+[2021-5-8 12:48:36] 💌 << 200 OK
+[2021-5-8 12:48:36] 📨 >> GET /user/1 ""
+[2021-5-8 12:48:36] 💌 << 200 OK
+[2021-5-8 12:48:38] 📨 >> GET /category/1 ""
+[2021-5-8 12:48:38] 💌 << 200 OK
+[2021-5-8 12:48:38] 📨 >> GET /user/1 ""
+[2021-5-8 12:48:38] 💌 << 200 OK
+[2021-5-8 12:48:46] 📨 >> POST /post {
+	"userId": "gre",
+	"title": "sddff",
+	"categoryId": "1",
+	"type": "Text",
+	"content": "gregsdfgrevdfg"
+}
+[2021-5-8 12:48:46] 💌 << 303 SEE_OTHER
+[2021-5-8 12:48:46] 📨 >> GET /category/1 ""
+[2021-5-8 12:48:47] 💌 << 200 OK
+[2021-5-8 12:48:47] 📨 >> GET /user/1 ""
+[2021-5-8 12:48:47] 💌 << 200 OK
+[2021-5-8 12:48:49] 📨 >> GET /post/1 ""
+[2021-5-8 12:48:49] 💌 << 200 OK
+[2021-5-8 12:48:49] 📨 >> GET /user/1 ""
+[2021-5-8 12:48:49] 💌 << 200 OK
+[2021-5-8 12:49:43] 📨 >> POST /comment {
+	"postId": "1",
+	"userId": "dfgf",
+	"content": "ggfdf"
+}
+[2021-5-8 12:49:43] CommentException: Cannot create Comment: You must be logged in.
+    at CommentController.new (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:173:19)
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:375:31)
+    at Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:52)
+    at App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:38)
+    at Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-8 12:49:43] CommentException: Cannot create Comment: You must be logged in.
+    at CommentController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/CommentController.js:377:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-8 12:49:43] 💌 << 401 UNAUTHORIZED
+[2021-5-8 12:49:54] 📨 >> GET /auth/logout ""
+[2021-5-8 12:49:54] 💌 << 303 SEE_OTHER
+[2021-5-8 12:49:54] 📨 >> GET / ""
+[2021-5-8 12:49:54] 💌 << 200 OK
+[2021-5-8 12:49:54] 📨 >> GET /user/1 ""
+[2021-5-8 12:49:54] 💌 << 200 OK
+[2021-5-8 12:49:58] 📨 >> GET /auth/login ""
+[2021-5-8 12:49:58] 💌 << 200 OK
+[2021-5-8 12:49:58] 📨 >> GET /user/1 ""
+[2021-5-8 12:49:58] 💌 << 200 OK
+[2021-5-8 12:50:1] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-8 12:50:1] 💌 << 303 SEE_OTHER
+[2021-5-8 12:50:1] 📨 >> GET /user/1 ""
+[2021-5-8 12:50:1] 💌 << 200 OK
+[2021-5-8 12:50:1] 📨 >> GET /user/1 ""
+[2021-5-8 12:50:1] 💌 << 200 OK
+[2021-5-8 12:50:3] 📨 >> GET / ""
+[2021-5-8 12:50:3] 💌 << 200 OK
+[2021-5-8 12:50:3] 📨 >> GET /user/1 ""
+[2021-5-8 12:50:3] 💌 << 200 OK
+[2021-5-8 12:50:4] 📨 >> GET /category/1 ""
+[2021-5-8 12:50:4] 💌 << 200 OK
+[2021-5-8 12:50:4] 📨 >> GET /user/1 ""
+[2021-5-8 12:50:4] 💌 << 200 OK
+[2021-5-8 12:50:9] 📨 >> POST /post {
+	"userId": "sdf",
+	"title": "dfsf",
+	"categoryId": "1",
+	"type": "Text",
+	"content": "sdffdsdfsdf"
+}
+[2021-5-8 12:50:9] 💌 << 303 SEE_OTHER
+[2021-5-8 12:50:9] 📨 >> GET /category/1 ""
+[2021-5-8 12:50:9] 💌 << 200 OK
+[2021-5-8 12:50:9] 📨 >> GET /user/1 ""
+[2021-5-8 12:50:9] 💌 << 200 OK
+[2021-5-8 12:50:10] 📨 >> GET /post/2 ""
+[2021-5-8 12:50:10] 💌 << 200 OK
+[2021-5-8 12:50:10] 📨 >> GET /user/1 ""
+[2021-5-8 12:50:10] 💌 << 200 OK
+[2021-5-8 12:50:35] 📨 >> GET /auth/logout ""
+[2021-5-8 12:50:35] 💌 << 303 SEE_OTHER
+[2021-5-8 12:50:35] 📨 >> GET / ""
+[2021-5-8 12:50:35] 💌 << 200 OK
+[2021-5-8 12:50:36] 📨 >> GET /user/1 ""
+[2021-5-8 12:50:36] 💌 << 200 OK
+[2021-5-8 12:50:37] 📨 >> GET /auth/login ""
+[2021-5-8 12:50:37] 💌 << 200 OK
+[2021-5-8 12:50:37] 📨 >> GET /user/1 ""
+[2021-5-8 12:50:37] 💌 << 200 OK
+[2021-5-8 12:50:40] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-8 12:50:41] 💌 << 303 SEE_OTHER
+[2021-5-8 12:50:41] 📨 >> GET /user/1 ""
+[2021-5-8 12:50:41] 💌 << 200 OK
+[2021-5-8 12:50:41] 📨 >> GET /user/1 ""
+[2021-5-8 12:50:41] 💌 << 200 OK
+[2021-5-8 12:50:43] 📨 >> GET / ""
+[2021-5-8 12:50:43] 💌 << 200 OK
+[2021-5-8 12:50:43] 📨 >> GET /user/1 ""
+[2021-5-8 12:50:43] 💌 << 200 OK
+[2021-5-8 12:50:44] 📨 >> GET /category/1 ""
+[2021-5-8 12:50:44] 💌 << 200 OK
+[2021-5-8 12:50:44] 📨 >> GET /user/1 ""
+[2021-5-8 12:50:44] 💌 << 200 OK
+[2021-5-8 12:50:46] 📨 >> GET /post/2 ""
+[2021-5-8 12:50:46] 💌 << 200 OK
+[2021-5-8 12:50:46] 📨 >> GET /user/1 ""
+[2021-5-8 12:50:46] 💌 << 200 OK
+[2021-5-8 12:51:21] 📨 >> GET /auth/logout ""
+[2021-5-8 12:51:21] 💌 << 303 SEE_OTHER
+[2021-5-8 12:51:21] 📨 >> GET / ""
+[2021-5-8 12:51:22] 💌 << 200 OK
+[2021-5-8 12:51:22] 📨 >> GET /user/1 ""
+[2021-5-8 12:51:22] 💌 << 200 OK
+[2021-5-8 12:51:23] 📨 >> GET /auth/login ""
+[2021-5-8 12:51:23] 💌 << 200 OK
+[2021-5-8 12:51:23] 📨 >> GET /user/1 ""
+[2021-5-8 12:51:23] 💌 << 200 OK
+[2021-5-8 12:51:27] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff",
+	"remember": "on"
+}
+[2021-5-8 12:51:27] 💌 << 303 SEE_OTHER
+[2021-5-8 12:51:27] 📨 >> GET /user/1 ""
+[2021-5-8 12:51:27] 💌 << 200 OK
+[2021-5-8 12:51:27] 📨 >> GET /user/1 ""
+[2021-5-8 12:51:27] 💌 << 200 OK
+[2021-5-8 12:51:28] 📨 >> GET / ""
+[2021-5-8 12:51:28] 💌 << 200 OK
+[2021-5-8 12:51:29] 📨 >> GET /user/1 ""
+[2021-5-8 12:51:29] 💌 << 200 OK
+[2021-5-8 12:51:30] 📨 >> GET /category/1 ""
+[2021-5-8 12:51:30] 💌 << 200 OK
+[2021-5-8 12:51:30] 📨 >> GET /user/1 ""
+[2021-5-8 12:51:30] 💌 << 200 OK
+[2021-5-8 12:51:31] 📨 >> GET /post/1 ""
+[2021-5-8 12:51:31] 💌 << 200 OK
+[2021-5-8 12:51:32] 📨 >> GET /user/1 ""
+[2021-5-8 12:51:32] 💌 << 200 OK
+[2021-5-8 12:52:12] 📨 >> GET /auth/logout ""
+[2021-5-8 12:52:12] 💌 << 303 SEE_OTHER
+[2021-5-8 12:52:12] 📨 >> GET / ""
+[2021-5-8 12:52:12] 💌 << 200 OK
+[2021-5-8 12:52:12] 📨 >> GET /user/1 ""
+[2021-5-8 12:52:12] 💌 << 200 OK
+[2021-5-8 12:52:13] 📨 >> GET /auth/login ""
+[2021-5-8 12:52:13] 💌 << 200 OK
+[2021-5-8 12:52:13] 📨 >> GET /user/1 ""
+[2021-5-8 12:52:13] 💌 << 200 OK
+[2021-5-8 12:52:18] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff",
+	"remember": "on"
+}
+[2021-5-8 12:52:18] 💌 << 303 SEE_OTHER
+[2021-5-8 12:52:18] 📨 >> GET /user/1 ""
+[2021-5-8 12:52:18] 💌 << 200 OK
+[2021-5-8 12:52:18] 📨 >> GET /user/1 ""
+[2021-5-8 12:52:18] 💌 << 200 OK
+[2021-5-8 12:52:21] 📨 >> GET / ""
+[2021-5-8 12:52:21] 💌 << 200 OK
+[2021-5-8 12:52:21] 📨 >> GET /user/1 ""
+[2021-5-8 12:52:21] 💌 << 200 OK
+[2021-5-8 12:52:22] 📨 >> GET /category/1 ""
+[2021-5-8 12:52:23] 💌 << 200 OK
+[2021-5-8 12:52:23] 📨 >> GET /user/1 ""
+[2021-5-8 12:52:23] 💌 << 200 OK
+[2021-5-8 12:52:23] 📨 >> GET /post/1 ""
+[2021-5-8 12:52:23] 💌 << 200 OK
+[2021-5-8 12:52:23] 📨 >> GET /user ""
+[2021-5-8 12:52:23] 📨 >> GET /user/1 ""
+[2021-5-8 12:52:23] 💌 << 200 OK
+[2021-5-8 12:52:23] 💌 << 200 OK
+[2021-5-8 12:52:58] 📨 >> GET /auth/logout ""
+[2021-5-8 12:52:58] 💌 << 303 SEE_OTHER
+[2021-5-8 12:52:58] 📨 >> GET / ""
+[2021-5-8 12:52:58] 💌 << 200 OK
+[2021-5-8 12:52:58] 📨 >> GET /user/1 ""
+[2021-5-8 12:52:58] 💌 << 200 OK
+[2021-5-8 12:52:59] 📨 >> GET /auth/login ""
+[2021-5-8 12:52:59] 💌 << 200 OK
+[2021-5-8 12:53:0] 📨 >> GET /user/1 ""
+[2021-5-8 12:53:0] 💌 << 200 OK
+[2021-5-8 12:53:3] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff",
+	"remember": "on"
+}
+[2021-5-8 12:53:3] 💌 << 303 SEE_OTHER
+[2021-5-8 12:53:3] 📨 >> GET /user/1 ""
+[2021-5-8 12:53:3] 💌 << 200 OK
+[2021-5-8 12:53:3] 📨 >> GET /user/1 ""
+[2021-5-8 12:53:3] 💌 << 200 OK
+[2021-5-8 12:53:5] 📨 >> GET / ""
+[2021-5-8 12:53:6] 💌 << 200 OK
+[2021-5-8 12:53:6] 📨 >> GET /user/1 ""
+[2021-5-8 12:53:6] 💌 << 200 OK
+[2021-5-8 12:53:7] 📨 >> GET /category/1 ""
+[2021-5-8 12:53:7] 💌 << 200 OK
+[2021-5-8 12:53:7] 📨 >> GET /user/1 ""
+[2021-5-8 12:53:7] 💌 << 200 OK
+[2021-5-8 12:53:9] 📨 >> GET /post/1 ""
+[2021-5-8 12:53:9] 💌 << 200 OK
+[2021-5-8 12:53:9] 📨 >> GET /user ""
+[2021-5-8 12:53:9] 📨 >> GET /user/1 ""
+[2021-5-8 12:53:9] 💌 << 200 OK
+[2021-5-8 12:53:9] 💌 << 200 OK
+[2021-5-8 12:54:12] 📨 >> GET /auth/logout ""
+[2021-5-8 12:54:12] 💌 << 303 SEE_OTHER
+[2021-5-8 12:54:12] 📨 >> GET / ""
+[2021-5-8 12:54:12] 💌 << 200 OK
+[2021-5-8 12:54:12] 📨 >> GET /user/1 ""
+[2021-5-8 12:54:12] 💌 << 200 OK
+[2021-5-8 12:54:14] 📨 >> GET /auth/login ""
+[2021-5-8 12:54:14] 💌 << 200 OK
+[2021-5-8 12:54:14] 📨 >> GET /user/1 ""
+[2021-5-8 12:54:14] 💌 << 200 OK
+[2021-5-8 12:54:16] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff",
+	"remember": "on"
+}
+[2021-5-8 12:54:16] 💌 << 303 SEE_OTHER
+[2021-5-8 12:54:16] 📨 >> GET /user/1 ""
+[2021-5-8 12:54:16] 💌 << 200 OK
+[2021-5-8 12:54:16] 📨 >> GET /user/1 ""
+[2021-5-8 12:54:16] 💌 << 200 OK
+[2021-5-8 12:54:18] 📨 >> GET / ""
+[2021-5-8 12:54:18] 💌 << 200 OK
+[2021-5-8 12:54:18] 📨 >> GET /user/1 ""
+[2021-5-8 12:54:18] 💌 << 200 OK
+[2021-5-8 12:54:20] 📨 >> GET /category/1 ""
+[2021-5-8 12:54:20] 💌 << 200 OK
+[2021-5-8 12:54:20] 📨 >> GET /user/1 ""
+[2021-5-8 12:54:20] 💌 << 200 OK
+[2021-5-8 12:54:20] 📨 >> GET /post/1 ""
+[2021-5-8 12:54:20] 💌 << 200 OK
+[2021-5-8 12:54:21] 📨 >> GET /user ""
+[2021-5-8 12:54:21] 📨 >> GET /user/1 ""
+[2021-5-8 12:54:21] 💌 << 200 OK
+[2021-5-8 12:54:21] 💌 << 200 OK
+[2021-5-8 12:55:24] 📨 >> GET /auth/logout ""
+[2021-5-8 12:55:24] 💌 << 303 SEE_OTHER
+[2021-5-8 12:55:24] 📨 >> GET / ""
+[2021-5-8 12:55:24] 💌 << 200 OK
+[2021-5-8 12:55:24] 📨 >> GET /user/1 ""
+[2021-5-8 12:55:24] 💌 << 200 OK
+[2021-5-8 12:55:26] 📨 >> GET /auth/login ""
+[2021-5-8 12:55:26] 💌 << 200 OK
+[2021-5-8 12:55:26] 📨 >> GET /user/1 ""
+[2021-5-8 12:55:26] 💌 << 200 OK
+[2021-5-8 12:55:27] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff",
+	"remember": "on"
+}
+[2021-5-8 12:55:27] 💌 << 303 SEE_OTHER
+[2021-5-8 12:55:27] 📨 >> GET /user/1 ""
+[2021-5-8 12:55:28] 💌 << 200 OK
+[2021-5-8 12:55:28] 📨 >> GET /user/1 ""
+[2021-5-8 12:55:28] 💌 << 200 OK
+[2021-5-8 12:55:30] 📨 >> GET / ""
+[2021-5-8 12:55:31] 💌 << 200 OK
+[2021-5-8 12:55:31] 📨 >> GET /user/1 ""
+[2021-5-8 12:55:31] 💌 << 200 OK
+[2021-5-8 12:55:32] 📨 >> GET /category/1 ""
+[2021-5-8 12:55:32] 💌 << 200 OK
+[2021-5-8 12:55:32] 📨 >> GET /user/1 ""
+[2021-5-8 12:55:32] 💌 << 200 OK
+[2021-5-8 12:55:33] 📨 >> GET /post/2 ""
+[2021-5-8 12:55:33] 💌 << 200 OK
+[2021-5-8 12:55:33] 📨 >> GET /user/1 ""
+[2021-5-8 12:55:33] 📨 >> GET /user ""
+[2021-5-8 12:55:33] 💌 << 200 OK
+[2021-5-8 12:55:33] 💌 << 200 OK
+[2021-5-8 13:8:20] 📨 >> GET / ""
+[2021-5-8 13:8:20] 💌 << 200 OK
+[2021-5-8 13:8:20] 📨 >> GET /user/1 ""
+[2021-5-8 13:8:20] 💌 << 200 OK
+[2021-5-8 13:8:21] 📨 >> GET /auth/login ""
+[2021-5-8 13:8:21] 💌 << 200 OK
+[2021-5-8 13:8:21] 📨 >> GET /user/1 ""
+[2021-5-8 13:8:21] 💌 << 200 OK
+[2021-5-8 13:8:24] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-8 13:8:24] 💌 << 303 SEE_OTHER
+[2021-5-8 13:8:24] 📨 >> GET /user/1 ""
+[2021-5-8 13:8:24] 💌 << 200 OK
+[2021-5-8 13:8:24] 📨 >> GET /user/1 ""
+[2021-5-8 13:8:24] 💌 << 200 OK
+[2021-5-8 13:8:34] 📨 >> GET / ""
+[2021-5-8 13:8:34] 💌 << 200 OK
+[2021-5-8 13:8:34] 📨 >> GET /user/1 ""
+[2021-5-8 13:8:34] 💌 << 200 OK
+[2021-5-8 13:8:35] 📨 >> GET /category/1 ""
+[2021-5-8 13:8:35] 💌 << 200 OK
+[2021-5-8 13:8:35] 📨 >> GET /user/1 ""
+[2021-5-8 13:8:35] 💌 << 200 OK
+[2021-5-8 13:8:36] 📨 >> GET /post/2 ""
+[2021-5-8 13:8:36] 💌 << 200 OK
+[2021-5-8 13:8:36] 📨 >> GET /user ""
+[2021-5-8 13:8:36] 📨 >> GET /user/1 ""
+[2021-5-8 13:8:36] 💌 << 200 OK
+[2021-5-8 13:8:36] 💌 << 200 OK
+[2021-5-8 13:10:2] 📨 >> GET /auth/logout ""
+[2021-5-8 13:10:2] 💌 << 303 SEE_OTHER
+[2021-5-8 13:10:2] 📨 >> GET / ""
+[2021-5-8 13:10:2] 💌 << 200 OK
+[2021-5-8 13:10:2] 📨 >> GET /user/1 ""
+[2021-5-8 13:10:2] 💌 << 200 OK
+[2021-5-8 13:10:4] 📨 >> GET /auth/login ""
+[2021-5-8 13:10:4] 💌 << 200 OK
+[2021-5-8 13:10:4] 📨 >> GET /user/1 ""
+[2021-5-8 13:10:4] 💌 << 200 OK
+[2021-5-8 13:10:7] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-8 13:10:7] 💌 << 303 SEE_OTHER
+[2021-5-8 13:10:7] 📨 >> GET /user/1 ""
+[2021-5-8 13:10:7] 💌 << 200 OK
+[2021-5-8 13:10:7] 📨 >> GET /user/1 ""
+[2021-5-8 13:10:7] 💌 << 200 OK
+[2021-5-8 13:10:10] 📨 >> GET / ""
+[2021-5-8 13:10:10] 💌 << 200 OK
+[2021-5-8 13:10:10] 📨 >> GET /user/1 ""
+[2021-5-8 13:10:10] 💌 << 200 OK
+[2021-5-8 13:10:11] 📨 >> GET /category/1 ""
+[2021-5-8 13:10:11] 💌 << 200 OK
+[2021-5-8 13:10:11] 📨 >> GET /user/1 ""
+[2021-5-8 13:10:11] 💌 << 200 OK
+[2021-5-8 13:10:13] 📨 >> GET /post/1 ""
+[2021-5-8 13:10:13] 💌 << 200 OK
+[2021-5-8 13:10:13] 📨 >> GET /user/1 ""
+[2021-5-8 13:10:13] 💌 << 200 OK
+[2021-5-8 13:10:37] 📨 >> GET /post/1 ""
+[2021-5-8 13:10:37] 💌 << 200 OK
+[2021-5-8 13:10:37] 📨 >> GET /user/1 ""
+[2021-5-8 13:10:37] 📨 >> GET /user ""
+[2021-5-8 13:10:37] 💌 << 200 OK
+[2021-5-8 13:10:37] 💌 << 200 OK
+[2021-5-8 13:10:38] 📨 >> GET /auth/login ""
+[2021-5-8 13:10:38] 💌 << 200 OK
+[2021-5-8 13:10:38] 📨 >> GET /user/1 ""
+[2021-5-8 13:10:38] 💌 << 200 OK
+[2021-5-8 13:10:41] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-8 13:10:41] 💌 << 303 SEE_OTHER
+[2021-5-8 13:10:41] 📨 >> GET /user/1 ""
+[2021-5-8 13:10:41] 💌 << 200 OK
+[2021-5-8 13:10:41] 📨 >> GET /user/1 ""
+[2021-5-8 13:10:41] 💌 << 200 OK
+[2021-5-8 13:10:44] 📨 >> GET / ""
+[2021-5-8 13:10:44] 💌 << 200 OK
+[2021-5-8 13:10:44] 📨 >> GET /user/1 ""
+[2021-5-8 13:10:44] 💌 << 200 OK
+[2021-5-8 13:10:45] 📨 >> GET /category/1 ""
+[2021-5-8 13:10:45] 💌 << 200 OK
+[2021-5-8 13:10:45] 📨 >> GET /user/1 ""
+[2021-5-8 13:10:45] 💌 << 200 OK
+[2021-5-8 13:11:4] 📨 >> GET /post/2 ""
+[2021-5-8 13:11:4] 💌 << 200 OK
+[2021-5-8 13:11:4] 📨 >> GET /user/1 ""
+[2021-5-8 13:11:4] 📨 >> GET /user ""
+[2021-5-8 13:11:4] 💌 << 200 OK
+[2021-5-8 13:11:4] 💌 << 200 OK
+[2021-5-8 13:13:46] 📨 >> GET /auth/logout ""
+[2021-5-8 13:13:46] 💌 << 303 SEE_OTHER
+[2021-5-8 13:13:46] 📨 >> GET / ""
+[2021-5-8 13:13:46] 💌 << 200 OK
+[2021-5-8 13:13:46] 📨 >> GET /user/1 ""
+[2021-5-8 13:13:46] 💌 << 200 OK
+[2021-5-8 13:13:49] 📨 >> GET /auth/login ""
+[2021-5-8 13:13:49] 💌 << 200 OK
+[2021-5-8 13:13:49] 📨 >> GET /user/1 ""
+[2021-5-8 13:13:49] 💌 << 200 OK
+[2021-5-8 13:13:53] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-8 13:13:53] 💌 << 303 SEE_OTHER
+[2021-5-8 13:13:53] 📨 >> GET /user/1 ""
+[2021-5-8 13:13:53] 💌 << 200 OK
+[2021-5-8 13:13:53] 📨 >> GET /user/1 ""
+[2021-5-8 13:13:53] 💌 << 200 OK
+[2021-5-8 13:13:55] 📨 >> GET / ""
+[2021-5-8 13:13:55] 💌 << 200 OK
+[2021-5-8 13:13:55] 📨 >> GET /user/1 ""
+[2021-5-8 13:13:55] 💌 << 200 OK
+[2021-5-8 13:13:56] 📨 >> GET /category/1 ""
+[2021-5-8 13:13:56] 💌 << 200 OK
+[2021-5-8 13:13:56] 📨 >> GET /user/1 ""
+[2021-5-8 13:13:56] 💌 << 200 OK
+[2021-5-8 13:13:57] 📨 >> GET /post/2 ""
+[2021-5-8 13:13:57] 💌 << 200 OK
+[2021-5-8 13:13:57] 📨 >> GET /user/1 ""
+[2021-5-8 13:13:57] 📨 >> GET /user ""
+[2021-5-8 13:13:57] 💌 << 200 OK
+[2021-5-8 13:13:57] 💌 << 200 OK
+[2021-5-8 13:15:46] 📨 >> GET /auth/logout ""
+[2021-5-8 13:15:46] 💌 << 303 SEE_OTHER
+[2021-5-8 13:15:46] 📨 >> GET / ""
+[2021-5-8 13:15:46] 💌 << 200 OK
+[2021-5-8 13:15:46] 📨 >> GET /user/1 ""
+[2021-5-8 13:15:46] 💌 << 200 OK
+[2021-5-8 13:15:47] 📨 >> GET /auth/login ""
+[2021-5-8 13:15:47] 💌 << 200 OK
+[2021-5-8 13:15:47] 📨 >> GET /user/1 ""
+[2021-5-8 13:15:47] 💌 << 200 OK
+[2021-5-8 13:15:50] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-8 13:15:50] 💌 << 303 SEE_OTHER
+[2021-5-8 13:15:50] 📨 >> GET /user/1 ""
+[2021-5-8 13:15:50] 💌 << 200 OK
+[2021-5-8 13:15:50] 📨 >> GET /user/1 ""
+[2021-5-8 13:15:50] 💌 << 200 OK
+[2021-5-8 13:15:53] 📨 >> GET / ""
+[2021-5-8 13:15:53] 💌 << 200 OK
+[2021-5-8 13:15:53] 📨 >> GET /user/1 ""
+[2021-5-8 13:15:53] 💌 << 200 OK
+[2021-5-8 13:15:53] 📨 >> GET /category/1 ""
+[2021-5-8 13:15:53] 💌 << 200 OK
+[2021-5-8 13:15:53] 📨 >> GET /user/1 ""
+[2021-5-8 13:15:53] 💌 << 200 OK
+[2021-5-8 13:15:55] 📨 >> GET /post/2 ""
+[2021-5-8 13:15:55] 💌 << 200 OK
+[2021-5-8 13:15:55] 📨 >> GET /user/1 ""
+[2021-5-8 13:15:55] 📨 >> GET /user ""
+[2021-5-8 13:15:55] 💌 << 200 OK
+[2021-5-8 13:15:55] 💌 << 200 OK
+[2021-5-8 13:19:20] 📨 >> GET /auth/logout ""
+[2021-5-8 13:19:20] 💌 << 303 SEE_OTHER
+[2021-5-8 13:19:20] 📨 >> GET / ""
+[2021-5-8 13:19:20] 💌 << 200 OK
+[2021-5-8 13:19:21] 📨 >> GET /user/1 ""
+[2021-5-8 13:19:21] 💌 << 200 OK
+[2021-5-8 13:19:23] 📨 >> GET /auth/login ""
+[2021-5-8 13:19:23] 💌 << 200 OK
+[2021-5-8 13:19:23] 📨 >> GET /user/1 ""
+[2021-5-8 13:19:23] 💌 << 200 OK
+[2021-5-8 13:19:26] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-5-8 13:19:26] 💌 << 303 SEE_OTHER
+[2021-5-8 13:19:26] 📨 >> GET /user/1 ""
+[2021-5-8 13:19:26] 💌 << 200 OK
+[2021-5-8 13:19:26] 📨 >> GET /user/1 ""
+[2021-5-8 13:19:26] 💌 << 200 OK
+[2021-5-8 13:19:28] 📨 >> GET / ""
+[2021-5-8 13:19:28] 💌 << 200 OK
+[2021-5-8 13:19:29] 📨 >> GET /user/1 ""
+[2021-5-8 13:19:29] 💌 << 200 OK
+[2021-5-8 13:19:30] 📨 >> GET /category/1 ""
+[2021-5-8 13:19:30] 💌 << 200 OK
+[2021-5-8 13:19:30] 📨 >> GET /user/1 ""
+[2021-5-8 13:19:30] 💌 << 200 OK
+[2021-5-8 13:19:31] 📨 >> GET /post/2 ""
+[2021-5-8 13:19:31] 💌 << 200 OK
+[2021-5-8 13:19:31] 📨 >> GET /user/1 ""
+[2021-5-8 13:19:31] 📨 >> GET /user ""
+[2021-5-8 13:19:31] 💌 << 200 OK
+[2021-5-8 13:19:31] 💌 << 200 OK

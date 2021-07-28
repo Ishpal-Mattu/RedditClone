@@ -1,0 +1,28 @@
+{{>Partials/Header}}
+
+<ul>
+    <li class="comment" comment-id="{{payload.id}}">
+        <span>{{payload.content}}</span> <i class="date">{{payload.createdAt}}</i> <i class="user">{{payload.user.username}}</i>
+        
+        {{#if isLoggedIn}}
+        <button class="comment-upvote-button" comment-id="{{payload.id}}">Up vote</button>
+        <button class="comment-downvote-button" comment-id="{{payload.id}}">Down vote</button>
+        {{/if}}
+
+        <p class="comment-votes" comment-id="{{payload.id}}"> {{payload.totalVotes}}</p> 
+
+        <ul>
+            {{#each replies}}
+            <li class="comment" comment-id="{{id}}"><span>{{content}}</span> <i class="date">{{createdAt}}</i> <i class="user">{{user.username}}</li>
+            {{/each}}
+        </ul>
+    </li>
+
+</ul>
+
+<script src="{{ scripts 'commentShowView.js' }}" defer></script>
+
+
+
+
+{{>Partials/Footer}}

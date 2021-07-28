@@ -1,0 +1,61 @@
+[2021-5-3 16:1:50] 📨 >> GET / ""
+[2021-5-3 16:1:50] 💌 << 200 OK
+[2021-5-3 16:1:50] 📨 >> GET /user/1 ""
+[2021-5-3 16:1:50] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:76:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:184:30)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-3 16:1:50] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:187:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-3 16:1:50] 💌 << 400 BAD_REQUEST
+[2021-5-3 16:30:23] 📨 >> GET /auth/login ""
+[2021-5-3 16:30:23] 💌 << 200 OK
+[2021-5-3 16:30:23] 📨 >> GET /user/1 ""
+[2021-5-3 16:30:23] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:76:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:184:30)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-3 16:30:23] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:187:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-3 16:30:23] 💌 << 400 BAD_REQUEST
+[2021-5-3 16:30:30] 📨 >> GET /auth/register ""
+[2021-5-3 16:30:30] 💌 << 200 OK
+[2021-5-3 16:30:30] 📨 >> GET /user/1 ""
+[2021-5-3 16:30:30] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:76:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:184:30)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-3 16:30:30] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:187:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/web-ii/Assignments/5-Fetch/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-3 16:30:30] 💌 << 400 BAD_REQUEST
+[2021-5-3 16:31:5] 📨 >> POST /user {
+	"username": "ishpal",
+	"email": "i@hotmail.com",
+	"password": "123"
+}
+[2021-5-3 16:31:5] 💌 << 303 SEE_OTHER
+[2021-5-3 16:31:5] 📨 >> GET /auth/login ""
+[2021-5-3 16:31:5] 💌 << 200 OK
+[2021-5-3 16:31:5] 📨 >> GET /user/1 ""
+[2021-5-3 16:31:5] 💌 << 200 OK

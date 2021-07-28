@@ -1,0 +1,37 @@
+{{>Partials/Header}}
+
+<h1>{{ heading }}</h1>
+
+<table id="categories">
+    <tbody>
+
+        {{#each categories}}
+            
+                <tr category-id="{{id}}">
+                    <td> {{ title }}</td>
+                    <td> {{ createdAt }}</td>
+                    <td> {{ user.username }}</td>
+                    {{#if isDeleted}}
+                    <td>Yes</td>
+                    {{else}}
+                    <td>No</td>
+                    {{/if}}
+                    <td> <a href="http://localhost:8000/category/{{id}}">choose category</a></td>
+                    
+                </tr>
+            
+            
+            
+            
+        {{/each}}
+
+  </tbody>
+</table>
+
+{{#if isLoggedIn}}
+{{>Category/NewFormView}}
+{{/if}}
+
+ 
+{{>Partials/Footer}}
+    

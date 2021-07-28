@@ -1,0 +1,17 @@
+{{>Partials/Header}}
+
+<h1>Login User</h1>
+
+<form action="{{path 'auth/login'}}" method="post" id="login-form">
+    <input type="text" name="email" value="{{email}}">
+    <input type="text" name="password">
+    {{#if isRemembered}}
+    <input type="checkbox" name="remember" checked>
+    {{else}}
+    <input type="checkbox" name="remember">
+    {{/if}}
+    <button>Login</button>
+</form>
+
+
+{{>Partials/Footer}}

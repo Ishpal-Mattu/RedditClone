@@ -1,0 +1,67 @@
+{{>Partials/Header}}
+
+<p id="category-title"> {{payload.title}} </p>
+<p id="category-description"> {{payload.description}} </p>
+
+{{#unless isCatDeleted}}
+{{#if isLoggedIn}}
+<a href="{{ path 'category/{id}/edit' payload.id }}">edit category</a>
+<form action="{{ path 'category/{id}' payload.id }}" method="POST" id="delete-category-form">
+    <input type="hidden" name="method" value="DELETE">
+    <button>delete category</button>
+</form>
+{{/if}}
+{{/unless}}
+
+<table id="posts">
+    <tbody>
+
+        {{#each posts}}
+            
+                <tr post-id="{{id}}">
+                    <td> {{ title }}</td>
+                    <td> {{ createdAt }}</td>
+                    <td> {{ user.username }}</td>
+                    {{#if isDeleted}}
+                    <td>Yes</td>
+                    {{else}}
+                    <td>No</td>
+                    {{/if}}
+                    <td><a href="http://localhost:8000/post/{{id}}">See post</a></td> 
+
+                    {{#if ../isLoggedIn}}
+                    <td><button class="post-upvote-button" post-id="{{id}}">Up vote</button></td>
+                            
+                    <td><button class="post-downvote-button" post-id="{{id}}">Down vote</button></td> 
+                    {{/if}}   
+                    <td class="post-votes" post-id="{{id}}">{{totalVotes}}</td>      
+                </tr>
+            
+            
+            
+            
+        {{/each}}
+
+  </tbody>
+</table>
+
+{{#unless isCatDeleted}}
+{{#if isLoggedIn}}
+<h2>Create new post</h2>
+<form action={{ path 'post' }} method="POST" id="new-post-form">
+    <input type="text" name="userId" placeholder="Enter new userId">
+    <input type="text" name="title" placeholder="Enter new title">
+    <input type="hidden" name="categoryId" value="{{payload.id}}">
+    <select name="type">
+        <option value="Text">Text</option>
+        <option value="URL">Url</option>
+        <option value="" selected="selected" hidden="hidden" ></option>
+    </select>
+    <textarea name="content" cols="30" rows="10"></textarea>
+    <button>Add post</button>
+</form>
+{{/if}}
+{{/unless}}
+
+<script src="{{ scripts 'categoryShowView.js' }}" defer></script>
+{{>Partials/Footer}}

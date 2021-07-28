@@ -1,0 +1,10 @@
+{{>Partials/Header}}
+
+<label for="edit-post-form">Edit Post</label>
+<form action="{{ path 'post/{id}' payload.id }}" method="POST" id="edit-post-form">
+    <input type="hidden" name="method" value="PUT">
+    <textarea name="content" cols="30" rows="10">{{payload.content}}</textarea>
+    <button>Save</button>
+</form>
+
+{{>Partials/Footer}}
