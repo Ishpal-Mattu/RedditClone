@@ -1,4 +1,5 @@
 {{>Partials/Header}}
+<link rel="stylesheet" href="../../../public/styles/userView.css">
 
 {{#if isDeleted}}
     <p>User was deleted on {{payload.deletedAt}}</p>
@@ -8,10 +9,26 @@
 <p id="username"> {{ payload.username }} </p>
 <p id="email"> {{ payload.email }} </p>
 {{#if isLoggedIn}}
-<form action="{{payload.id}}" method="POST" id="delete-user-form">
-    <input type="hidden" name="method" value="DELETE">
-    <button class="delete-button" >Delete user</button>
-</form>
+
+<h1>User Activity</h1>
+<div id="userActivity">
+    <button id="show-user-posts-button">My Posts</button>
+
+    <button id="show-user-comments-button">My Comments</button>
+
+    <button id="show-user-post-bookmarks-button">Post Bookmarks</button>
+
+    <button id="show-user-comment-bookmarks-button">Comment Bookmarks</button>
+
+    <button id="show-user-post-votes-button">Post Votes</button>
+
+    <button id="show-user-comment-votes-button">Comment Votes</button>
+</div>
+
+<div id="tableResultSection">
+
+</div>
+
 
 <h1> Edit user</h1>
 
@@ -20,20 +37,15 @@
     <input type="text" name="username" placeholder="Enter new username">
     <input type="text" name="email" placeholder="Enter new email">
     <input type="text" name="password" placeholder="Enter new password">
-    <button>Save</button>
+    <button>Save Changes</button>
 </form>
 
-<button id="show-user-posts-button">See my posts</button>
+<form action="{{payload.id}}" method="POST" id="delete-user-form">
+    <input type="hidden" name="method" value="DELETE">
+    <button class="delete-button" >Delete user</button>
+</form>
 
-<button id="show-user-comments-button">See my comments</button>
 
-<button id="show-user-post-bookmarks-button">See post bookmarks</button>
-
-<button id="show-user-comment-bookmarks-button">See comment bookmarks</button>
-
-<button id="show-user-post-votes-button">See post votes</button>
-
-<button id="show-user-comment-votes-button">See comment votes</button>
 
 {{/if}}
 {{/if}}

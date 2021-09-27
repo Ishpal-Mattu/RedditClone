@@ -1,14 +1,20 @@
 {{>Partials/Header}}
 
-<h1>Login User</h1>
+<link rel="stylesheet" href="../../public/styles/loginView.css">
+
+<h1>Login</h1>
 
 <form action="{{path 'auth/login'}}" method="post" id="login-form">
-    <input type="text" name="email" value="{{email}}">
-    <input type="text" name="password">
+    <input type="text" name="email" value="{{email}}" placeholder="Enter Email Address">
+    <input type="password" name="password" placeholder="Enter Password">
     {{#if isRemembered}}
     <input type="checkbox" name="remember" checked>
     {{else}}
-    <input type="checkbox" name="remember">
+    <div>
+        <input type="checkbox" name="remember" id="rememberUserCheck">
+        <label for="rememberUserCheck">Remember Username?</label>
+    </div>
+    
     {{/if}}
     <button>Login</button>
 </form>

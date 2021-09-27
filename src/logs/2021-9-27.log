@@ -1,0 +1,649 @@
+[2021-9-27 1:12:18] 📨 >> GET /auth/register ""
+[2021-9-27 1:12:18] 💌 << 200 OK
+[2021-9-27 1:12:18] 📨 >> GET /user/1 ""
+[2021-9-27 1:12:18] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:179:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:287:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:12:18] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:290:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:12:18] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:13:11] 📨 >> POST /user {
+	"username": "theMattu31",
+	"email": "someone@hotmail.com",
+	"password": "123"
+}
+[2021-9-27 1:13:11] 💌 << 303 SEE_OTHER
+[2021-9-27 1:13:11] 📨 >> GET /auth/login ""
+[2021-9-27 1:13:11] 💌 << 200 OK
+[2021-9-27 1:13:11] 📨 >> GET /user/1 ""
+[2021-9-27 1:13:11] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:179:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:287:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:11] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:290:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:11] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:13:22] 📨 >> POST /auth/login {
+	"email": "someone@hotmail.com",
+	"password": "123",
+	"remember": "on"
+}
+[2021-9-27 1:13:22] 💌 << 303 SEE_OTHER
+[2021-9-27 1:13:22] 📨 >> GET /user/10 ""
+[2021-9-27 1:13:22] 💌 << 200 OK
+[2021-9-27 1:13:22] 📨 >> GET /user/1 ""
+[2021-9-27 1:13:22] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:179:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:287:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:22] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:290:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:22] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:13:29] 📨 >> GET / ""
+[2021-9-27 1:13:29] 💌 << 200 OK
+[2021-9-27 1:13:29] 📨 >> GET /user/1 ""
+[2021-9-27 1:13:29] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:179:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:287:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:29] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:290:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:29] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:13:33] 📨 >> GET /category/1 ""
+[2021-9-27 1:13:33] 💌 << 200 OK
+[2021-9-27 1:13:33] 📨 >> GET /user/1 ""
+[2021-9-27 1:13:33] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:179:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:287:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:33] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:290:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:33] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:13:35] 📨 >> GET / ""
+[2021-9-27 1:13:35] 💌 << 200 OK
+[2021-9-27 1:13:35] 📨 >> GET /user/1 ""
+[2021-9-27 1:13:35] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:179:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:287:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:35] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:290:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:35] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:13:37] 📨 >> GET /category/2 ""
+[2021-9-27 1:13:37] 💌 << 200 OK
+[2021-9-27 1:13:37] 📨 >> GET /user/1 ""
+[2021-9-27 1:13:37] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:179:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:287:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:37] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:290:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:37] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:13:41] 📨 >> DELETE /category/2 {
+	"method": "DELETE"
+}
+[2021-9-27 1:13:41] CategoryException: Cannot delete Category: You cannot delete a category created by someone other than yourself.
+    at CategoryController.destroy (/home/ishpal/personal-work/RedditClone/src/controllers/CategoryController.js:195:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CategoryController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/CategoryController.js:217:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:41] 💌 << 403 FORBIDDEN
+[2021-9-27 1:13:51] 📨 >> GET /category/2/edit ""
+[2021-9-27 1:13:51] CategoryException: Cannot update Category: You cannot update a category created by someone other than yourself.
+    at CategoryController.getEditForm (/home/ishpal/personal-work/RedditClone/src/controllers/CategoryController.js:121:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CategoryController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/CategoryController.js:217:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:13:51] 💌 << 403 FORBIDDEN
+[2021-9-27 1:14:43] 📨 >> GET /post/2 ""
+[2021-9-27 1:14:43] 💌 << 200 OK
+[2021-9-27 1:14:43] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:14:43] 💌 << 200 OK
+[2021-9-27 1:14:46] 📨 >> GET /post/2 ""
+[2021-9-27 1:14:46] 💌 << 200 OK
+[2021-9-27 1:14:46] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:14:46] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:342:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:14:46] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:345:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:14:46] PostException: Cannot up vote Post: Post has already been up voted.
+    at PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:114:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:14:46] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:14:46] 📨 >> GET /post/2/unvote ""
+[2021-9-27 1:14:46] 💌 << 200 OK
+[2021-9-27 1:14:50] 📨 >> GET /post/2 ""
+[2021-9-27 1:14:50] 💌 << 200 OK
+[2021-9-27 1:14:50] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:14:50] 💌 << 200 OK
+[2021-9-27 1:14:51] 📨 >> GET /post/2 ""
+[2021-9-27 1:14:51] 💌 << 200 OK
+[2021-9-27 1:14:51] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:14:51] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:342:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:14:51] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:345:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:14:51] PostException: Cannot up vote Post: Post has already been up voted.
+    at PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:114:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:14:51] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:14:51] 📨 >> GET /post/2/unvote ""
+[2021-9-27 1:14:51] 💌 << 200 OK
+[2021-9-27 1:14:52] 📨 >> GET /post/2 ""
+[2021-9-27 1:14:52] 💌 << 200 OK
+[2021-9-27 1:14:52] 📨 >> GET /post/2/downvote ""
+[2021-9-27 1:14:52] 💌 << 200 OK
+[2021-9-27 1:14:53] 📨 >> GET /post/2 ""
+[2021-9-27 1:14:53] 💌 << 200 OK
+[2021-9-27 1:14:53] 📨 >> GET /post/2/downvote ""
+[2021-9-27 1:14:53] PostException: Cannot down vote Post: Post has already been down voted.
+    at Post.downVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:380:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.downvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:133:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:14:53] PostException: Cannot down vote Post: Post has already been down voted.
+    at Post.downVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:383:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.downvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:133:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:14:53] PostException: Cannot down vote Post: Post has already been down voted.
+    at PostController.downvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:135:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:14:53] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:14:53] 📨 >> GET /post/2/unvote ""
+[2021-9-27 1:14:53] 💌 << 200 OK
+[2021-9-27 1:14:54] 📨 >> GET /post/2 ""
+[2021-9-27 1:14:54] 💌 << 200 OK
+[2021-9-27 1:14:54] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:14:55] 💌 << 200 OK
+[2021-9-27 1:14:56] 📨 >> GET /post/2 ""
+[2021-9-27 1:14:56] 💌 << 200 OK
+[2021-9-27 1:14:56] 📨 >> GET /post/2/unvote ""
+[2021-9-27 1:14:56] 📨 >> GET /post/2/downvote ""
+[2021-9-27 1:14:56] 💌 << 200 OK
+[2021-9-27 1:14:56] 💌 << 200 OK
+[2021-9-27 1:15:12] 📨 >> GET /post/2 ""
+[2021-9-27 1:15:12] 💌 << 200 OK
+[2021-9-27 1:15:12] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:15:12] 💌 << 200 OK
+[2021-9-27 1:15:14] 📨 >> GET /post/2 ""
+[2021-9-27 1:15:14] 💌 << 200 OK
+[2021-9-27 1:15:14] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:15:14] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:342:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:15:14] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:345:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:15:14] PostException: Cannot up vote Post: Post has already been up voted.
+    at PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:114:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:15:14] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:15:14] 📨 >> GET /post/2/unvote ""
+[2021-9-27 1:15:14] 💌 << 200 OK
+[2021-9-27 1:15:16] 📨 >> GET /post/2 ""
+[2021-9-27 1:15:16] 💌 << 200 OK
+[2021-9-27 1:15:16] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:15:16] 💌 << 200 OK
+[2021-9-27 1:15:17] 📨 >> GET /post/2 ""
+[2021-9-27 1:15:17] 💌 << 200 OK
+[2021-9-27 1:15:17] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:15:17] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:342:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:15:17] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:345:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:15:17] PostException: Cannot up vote Post: Post has already been up voted.
+    at PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:114:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:15:17] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:15:17] 📨 >> GET /post/2/unvote ""
+[2021-9-27 1:15:17] 💌 << 200 OK
+[2021-9-27 1:15:20] 📨 >> GET /post/2 ""
+[2021-9-27 1:15:20] 💌 << 200 OK
+[2021-9-27 1:15:20] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:15:20] 💌 << 200 OK
+[2021-9-27 1:15:26] 📨 >> GET /post/2 ""
+[2021-9-27 1:15:26] 💌 << 200 OK
+[2021-9-27 1:15:26] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:15:26] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:342:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:15:26] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:345:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:15:26] PostException: Cannot up vote Post: Post has already been up voted.
+    at PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:114:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:15:26] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:15:26] 📨 >> GET /post/2/unvote ""
+[2021-9-27 1:15:26] 💌 << 200 OK
+[2021-9-27 1:15:28] 📨 >> GET /post/2 ""
+[2021-9-27 1:15:28] 💌 << 200 OK
+[2021-9-27 1:15:28] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:15:28] 💌 << 200 OK
+[2021-9-27 1:16:8] 📨 >> GET /post/2 ""
+[2021-9-27 1:16:8] 💌 << 200 OK
+[2021-9-27 1:16:8] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:16:8] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:342:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:8] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:345:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:8] PostException: Cannot up vote Post: Post has already been up voted.
+    at PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:114:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:8] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:16:8] 📨 >> GET /post/2/unvote ""
+[2021-9-27 1:16:8] 💌 << 200 OK
+[2021-9-27 1:16:9] 📨 >> GET /post/2 ""
+[2021-9-27 1:16:9] 💌 << 200 OK
+[2021-9-27 1:16:9] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:16:9] 💌 << 200 OK
+[2021-9-27 1:16:10] 📨 >> GET /post/2 ""
+[2021-9-27 1:16:10] 💌 << 200 OK
+[2021-9-27 1:16:10] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:16:10] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:342:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:10] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:345:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:10] PostException: Cannot up vote Post: Post has already been up voted.
+    at PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:114:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:10] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:16:10] 📨 >> GET /post/2/unvote ""
+[2021-9-27 1:16:10] 💌 << 200 OK
+[2021-9-27 1:16:11] 📨 >> GET /category/2 ""
+[2021-9-27 1:16:12] 💌 << 200 OK
+[2021-9-27 1:16:12] 📨 >> GET /user/1 ""
+[2021-9-27 1:16:12] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:179:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:287:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:12] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:290:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:12] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:16:13] 📨 >> GET /category/2 ""
+[2021-9-27 1:16:14] 💌 << 200 OK
+[2021-9-27 1:16:14] 📨 >> GET /user/1 ""
+[2021-9-27 1:16:14] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:179:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:287:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:14] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:290:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:14] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:16:15] 📨 >> GET /post/2 ""
+[2021-9-27 1:16:15] 💌 << 200 OK
+[2021-9-27 1:16:15] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:16:15] 💌 << 200 OK
+[2021-9-27 1:16:17] 📨 >> GET /post/2 ""
+[2021-9-27 1:16:17] 💌 << 200 OK
+[2021-9-27 1:16:17] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:16:17] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:342:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:17] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:345:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:17] PostException: Cannot up vote Post: Post has already been up voted.
+    at PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:114:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:17] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:16:17] 📨 >> GET /post/2/unvote ""
+[2021-9-27 1:16:17] 💌 << 200 OK
+[2021-9-27 1:16:19] 📨 >> GET /post/2 ""
+[2021-9-27 1:16:19] 💌 << 200 OK
+[2021-9-27 1:16:19] 📨 >> GET /post/2/downvote ""
+[2021-9-27 1:16:19] 💌 << 200 OK
+[2021-9-27 1:16:20] 📨 >> GET /post/2 ""
+[2021-9-27 1:16:20] 💌 << 200 OK
+[2021-9-27 1:16:20] 📨 >> GET /post/2/downvote ""
+[2021-9-27 1:16:20] PostException: Cannot down vote Post: Post has already been down voted.
+    at Post.downVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:380:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.downvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:133:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:20] PostException: Cannot down vote Post: Post has already been down voted.
+    at Post.downVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:383:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.downvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:133:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:20] PostException: Cannot down vote Post: Post has already been down voted.
+    at PostController.downvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:135:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:20] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:16:20] 📨 >> GET /post/2/unvote ""
+[2021-9-27 1:16:20] 💌 << 200 OK
+[2021-9-27 1:16:21] 📨 >> GET /post/2 ""
+[2021-9-27 1:16:21] 💌 << 200 OK
+[2021-9-27 1:16:21] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:16:21] 💌 << 200 OK
+[2021-9-27 1:16:22] 📨 >> GET /post/2 ""
+[2021-9-27 1:16:22] 💌 << 200 OK
+[2021-9-27 1:16:22] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:16:22] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:342:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:22] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:345:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:22] PostException: Cannot up vote Post: Post has already been up voted.
+    at PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:114:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:22] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:16:22] 📨 >> GET /post/2/unvote ""
+[2021-9-27 1:16:22] 💌 << 200 OK
+[2021-9-27 1:16:26] 📨 >> GET /post/2 ""
+[2021-9-27 1:16:26] 💌 << 200 OK
+[2021-9-27 1:16:26] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:16:26] 💌 << 200 OK
+[2021-9-27 1:16:29] 📨 >> GET /post/2 ""
+[2021-9-27 1:16:29] 💌 << 200 OK
+[2021-9-27 1:16:29] 📨 >> GET /post/2/upvote ""
+[2021-9-27 1:16:29] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:342:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:29] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/ishpal/personal-work/RedditClone/src/models/Post.js:345:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:112:13)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:29] PostException: Cannot up vote Post: Post has already been up voted.
+    at PostController.upvote (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:114:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/PostController.js:384:16)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:29] 💌 << 400 BAD_REQUEST
+[2021-9-27 1:16:29] 📨 >> GET /post/2/unvote ""
+[2021-9-27 1:16:29] 💌 << 200 OK
+[2021-9-27 1:16:44] 📨 >> GET /auth/logout ""
+[2021-9-27 1:16:44] 💌 << 303 SEE_OTHER
+[2021-9-27 1:16:44] 📨 >> GET / ""
+[2021-9-27 1:16:44] 💌 << 200 OK
+[2021-9-27 1:16:44] 📨 >> GET /user/1 ""
+[2021-9-27 1:16:44] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:179:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:287:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:44] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:290:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-9-27 1:16:44] 💌 << 400 BAD_REQUEST

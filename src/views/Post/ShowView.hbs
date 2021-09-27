@@ -1,7 +1,7 @@
 {{>Partials/Header}}
 
-<p id="post-title"> {{payload.title}} </p>
-<p id="post-content"> {{payload.content}} </p>
+<h1 id="post-title"> {{payload.title}} </h1>
+<h3 id="post-content"> {{payload.content}} </h3>
 {{#unless payload.isURL}}
 {{#unless payload.isDeleted}}
 {{#if isLoggedIn}}
@@ -26,7 +26,7 @@
        
 <button class="post-downvote-button" post-id="{{payload.id}}">Down vote</button>      
 {{/if}}
-<p class="post-votes" post-id="{{payload.id}}"> {{payload.totalVotes}}</p> 
+<span>Total post votes: </span><p class="post-votes" post-id="{{payload.id}}"> {{payload.totalVotes}}</p> 
 {{/unless}}
 
 <section id="comments">
@@ -37,9 +37,11 @@
             {{#if isDeleted}}
                 <span>Comment was deleted on {{deletedAt}}</span>
             {{else}}
-                <span>{{content}}</span>
-                <span>{{createdAt}}</span>
-                <span>{{user.username}}</span>
+                <div class="theComment">
+                    <span>{{content}}</span>
+                    <span>Posted by {{user.username}} @ {{createdAt}}</span>
+                </div>
+
                 {{#if ../isLoggedIn}}
                 <span><a href="{{path 'comment/{id}/edit' id}}">Edit comment</a></span>
                 <span><form action="{{path 'comment/{id}' id}}" method="post" class="delete-comment-form" id="delete-comment">
@@ -59,7 +61,7 @@
                 {{/if}}
 
                 <a href="{{path 'comment/{id}' id}}">See all replies</a>
-                <p class="comment-votes" comment-id="{{id}}"> {{totalVotes}}</p> 
+                <span>Total comment votes: </span><p class="comment-votes" comment-id="{{id}}"> {{totalVotes}}</p> 
 
             {{/if}}
         </li>

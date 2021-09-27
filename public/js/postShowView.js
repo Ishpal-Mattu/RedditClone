@@ -38,46 +38,67 @@ postDownvoteButton.addEventListener('click', () => {
     .then((data) => {
         const payload = data.payload;
         
+        
         const parentNode = postVotesButton.parentNode;
-        url = BASE_URL + `post/${postId}/unvote`;
+        
+        url = BASE_URL + `post/${postId}/downvote`;
         if(payload.isUpVoted)
         {
-            fetch(url, options)
-            .then(response => response.json())
-            .then((data) => {
-                const postVotes = parentNode.querySelector('.post-votes')
-                let votesInt = parseInt(postVotes.innerText);
-                votesInt--;
-    
-                postVotes.innerText = votesInt;
-            })
+            url = BASE_URL + `post/${postId}/unvote`;
         }
-
-        url = BASE_URL + `post/${postId}/downvote`;
         fetch(url, options)
         .then(response => response.json())
         .then((data) => {
             if(data.statusCode !== 200)
                 throw "error";
-            const postVotes = parentNode.querySelector('.post-votes')
-            let votesInt = parseInt(postVotes.innerText);
-            votesInt --;
-    
-            postVotes.innerText = votesInt;
             
+            const numVotes = data.payload.totalVotes;
+            const postVotes = parentNode.querySelector('.post-votes')
+            
+
+            postVotes.innerText = numVotes;
         })
         .catch(() => {
             url = BASE_URL + `post/${postId}/unvote`;
             fetch(url, options)
             .then(response => response.json())
-            .then(() => {
+            .then((data) => {
+                const numVotes = data.payload.totalVotes;
                 const postVotes = parentNode.querySelector('.post-votes')
-                let votesInt = parseInt(postVotes.innerText);
-                votesInt++;
+                
     
-                postVotes.innerText = votesInt;
+                postVotes.innerText = numVotes;
             })
         })
+        
+        
+
+        
+        // fetch(url, options)
+        // .then(response => response.json())
+        // .then((data) => {
+        //     if(data.statusCode !== 200)
+        //         throw "error";
+            
+        //     const numVotes = data.payload.totalVotes;
+        //     const postVotes = parentNode.querySelector('.post-votes')
+           
+    
+        //     postVotes.innerText = numVotes;
+            
+        // })
+        // .catch(() => {
+        //     url = BASE_URL + `post/${postId}/unvote`;
+        //     fetch(url, options)
+        //     .then(response => response.json())
+        //     .then((data) => {
+        //         const numVotes = data.payload.totalVotes;
+        //         const postVotes = parentNode.querySelector('.post-votes')
+                
+    
+        //         postVotes.innerText = numVotes;
+        //     })
+        // })
     })
 
 
@@ -104,11 +125,11 @@ postVotesButton.addEventListener('click', () => {
             fetch(url, options)
             .then(response => response.json())
             .then((data) => {
+                const numVotes = data.payload.totalVotes;
                 const postVotes = parentNode.querySelector('.post-votes')
-                let votesInt = parseInt(postVotes.innerText);
-                votesInt++;
+                
     
-                postVotes.innerText = votesInt;
+                postVotes.innerText = numVotes;
             })
         }
 
@@ -119,23 +140,24 @@ postVotesButton.addEventListener('click', () => {
         .then((data) => {
             if(data.statusCode !== 200)
                 throw "error";
+
+            const numVotes = data.payload.totalVotes;
             const postVotes = parentNode.querySelector('.post-votes')
-            let votesInt = parseInt(postVotes.innerText);
-            votesInt ++;
+            
     
-            postVotes.innerText = votesInt;
+            postVotes.innerText = numVotes;
             
         })
         .catch(() => {
             url = BASE_URL + `post/${postId}/unvote`;
             fetch(url, options)
             .then(response => response.json())
-            .then(() => {
+            .then((data) => {
+                const numVotes = data.payload.totalVotes;
                 const postVotes = parentNode.querySelector('.post-votes')
-                let votesInt = parseInt(postVotes.innerText);
-                votesInt--;
+                
     
-                postVotes.innerText = votesInt;
+                postVotes.innerText = numVotes;
             })
         })
     })

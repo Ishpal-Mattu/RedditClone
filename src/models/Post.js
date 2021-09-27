@@ -17,6 +17,7 @@ class Post extends Model {
         this.category = null;
         this.upvotes = upVotes;
         this.downvotes = downVotes;
+        this.totalVotes = 0;
     }
 
     
@@ -319,11 +320,13 @@ class Post extends Model {
             let result;
             [result] = await connection.execute(sql, [userId, this.id]);
 
+
             if(result.length <= 0)
             {
                 sql = 'INSERT INTO `post_vote` (`user_id`, `post_id`, `type`) VALUES (?, ?, ?);';
                 [result] = await connection.execute(sql, [userId, this.id, 'Up']);
                 this.upvotes++;
+                this.totalVotes = await this.getTotalVotes();
                 return true;
             }
             else if(result[0].type !== 'Up')
@@ -332,6 +335,7 @@ class Post extends Model {
                 [result] = await connection.execute(sql, ['Up', userId, this.id]);
                 this.upvotes++;
                 this.downvotes--;
+                this.totalVotes = await this.getTotalVotes();
                 return true;
             }
 
@@ -353,11 +357,14 @@ class Post extends Model {
             let result;
             [result] = await connection.execute(sql, [userId, this.id]);
 
+            
+
             if(result.length <= 0)
             {
                 sql = 'INSERT INTO `post_vote` (`user_id`, `post_id`, `type`) VALUES (?, ?, ?);';
                 [result] = await connection.execute(sql, [userId, this.id, 'Down']);
                 this.downvotes++;
+                this.totalVotes = await this.getTotalVotes();
                 return true;
             }
             else if(result[0].type !== 'Down')
@@ -366,6 +373,7 @@ class Post extends Model {
                 [result] = await connection.execute(sql, ['Down', userId, this.id]);
                 this.downvotes++;
                 this.upvotes--;
+                this.totalVotes = await this.getTotalVotes();
                 return true;
             }
 
@@ -387,6 +395,7 @@ class Post extends Model {
             let result;
             [result] = await connection.execute(sql, [userId, this.id]);
 
+
             if(result.length <= 0)
             {
                 throw new PostException('Cannot unvote Post: Post must first be up or down voted.');
@@ -402,6 +411,8 @@ class Post extends Model {
 
             sql = 'DELETE FROM `post_vote` WHERE `user_id` = ? AND `post_id` = ?';
             [result] = await connection.execute(sql, [userId, this.id]);
+
+            this.totalVotes = await this.getTotalVotes();
 
             return true;
 

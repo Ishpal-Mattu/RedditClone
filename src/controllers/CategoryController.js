@@ -12,7 +12,12 @@ class CategoryController extends Controller {
         super(request, response, session);
 
         const requestMethod = this.request.getRequestMethod();
-        this.headerLinks = [{link: "http://localhost:8000", name: "Home"}, {link: "http://localhost:8000/user/new", name: "Create User"}];
+        const profile = {link: `http://localhost:8000/user/${this.session.get('user_id')}`, name: "Profile"};
+        
+        this.header = [];
+
+        if(this.session.get('user_id'))
+            this.header.push(profile);
 
         this.response.setResponse({message: "Invalid request method!", statusCode: 405, payload: {} });
         this.action = this.error;
@@ -94,10 +99,10 @@ class CategoryController extends Controller {
             categoryPosts[i].totalVotes = await categoryPosts[i].getTotalVotes();
         }
         
-        const theHeader = this.headerLinks;
-        theHeader.push({link: `http://localhost:8000/user/${userId}`, name: "My Profile"});
+        // const theHeader = this.headerLinks;
+        // theHeader.push({link: `http://localhost:8000/user/${userId}`, name: "My Profile"});
 
-        await this.response.setResponse({message: "Category retrieved successfully!", statusCode: 200, payload: foundCategory, template: "Category/ShowView", title: foundCategory.title, posts: categoryPosts, isLoggedIn: this.session.exists('user_id'), isCatDeleted: isCatDeleted, header: theHeader});
+        await this.response.setResponse({message: "Category retrieved successfully!", statusCode: 200, payload: foundCategory, template: "Category/ShowView", title: foundCategory.title, posts: categoryPosts, isLoggedIn: this.session.exists('user_id'), isCatDeleted: isCatDeleted, header: this.header});
         return this.response;
     }
 

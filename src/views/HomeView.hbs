@@ -1,30 +1,29 @@
 {{>Partials/Header}}
+<link rel="stylesheet" href="../../public/styles/homeView.css">
 
 <h1>{{ heading }}</h1>
 
+<h2>All Categories</h2>
 <table id="categories">
+    <thead>
+        <th>Title</th>
+        <th>Date Created</th>
+        <th>Owner</th>
+        <th>Deleted</th>
+    </thead>
     <tbody>
-
         {{#each categories}}
-            
                 <tr category-id="{{id}}">
-                    <td> {{ title }}</td>
+                    <td> <a href="http://localhost:8000/category/{{id}}">{{ title }}</a></td>
                     <td> {{ createdAt }}</td>
                     <td> {{ user.username }}</td>
                     {{#if isDeleted}}
                     <td>Yes</td>
                     {{else}}
                     <td>No</td>
-                    {{/if}}
-                    <td> <a href="http://localhost:8000/category/{{id}}">choose category</a></td>
-                    
+                    {{/if}}                    
                 </tr>
-            
-            
-            
-            
         {{/each}}
-
   </tbody>
 </table>
 

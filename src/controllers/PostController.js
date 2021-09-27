@@ -13,7 +13,12 @@ class PostController extends Controller {
         
         this.response.setResponse({message: "Invalid request method!", statusCode: 405, payload: {} });
         this.action = this.error;
-        this.headerLinks = [{link: "http://localhost:8000", name: "Home"}, {link: "http://localhost:8000/user/new", name: "Create User"}];
+        const profile = {link: `http://localhost:8000/user/${this.session.get('user_id')}`, name: "Profile"};
+        
+        this.header = [];
+
+        if(this.session.get('user_id'))
+            this.header.push(profile);
 
         if(requestMethod.toUpperCase() == "DELETE"){
 
@@ -109,7 +114,7 @@ class PostController extends Controller {
             throw new PostException(error.message);
         }
 
-        await this.response.setResponse({message: "Post was up voted successfully!", payload: postToUpvote, statusCode:HttpStatusCode.OK, isLoggedIn: this.session.exists('user_id')});
+        await this.response.setResponse({message: "Post was up voted successfully!", payload: postToUpvote, numVotes: await postToUpvote.getTotalVotes(),statusCode:HttpStatusCode.OK, isLoggedIn: this.session.exists('user_id')});
         return this.response; 
 
 
@@ -130,7 +135,7 @@ class PostController extends Controller {
             throw new PostException(error.message);
         }
 
-        await this.response.setResponse({message: "Post was down voted successfully!", payload: postToDownvote, statusCode:HttpStatusCode.OK, isLoggedIn: this.session.exists('user_id')});
+        await this.response.setResponse({message: "Post was down voted successfully!", payload: postToDownvote, numVotes: await postToDownvote.getTotalVotes(),statusCode:HttpStatusCode.OK, isLoggedIn: this.session.exists('user_id')});
         return this.response; 
     }
 
@@ -149,7 +154,7 @@ class PostController extends Controller {
             throw new PostException(error.message);
         }
 
-        await this.response.setResponse({message: "Post was unvoted successfully!", payload: postToUnvote, statusCode:HttpStatusCode.OK, isLoggedIn: this.session.exists('user_id')});
+        await this.response.setResponse({message: "Post was unvoted successfully!", payload: postToUnvote, numVotes: await postToUnvote.getTotalVotes(), statusCode:HttpStatusCode.OK, isLoggedIn: this.session.exists('user_id')});
         return this.response;
     }
 
@@ -241,10 +246,10 @@ class PostController extends Controller {
         foundPost.isDownVoted = await foundPost.isPostDownVoted(userId);
         foundPost.totalVotes = await foundPost.getTotalVotes();
 
-        const theHeader = this.headerLinks;
-        theHeader.push({link: `http://localhost:8000/user/${userId}`, name: "My Profile"});
+        // const theHeader = this.headerLinks;
+        // theHeader.push({link: `http://localhost:8000/user/${userId}`, name: "My Profile"});
 
-        await this.response.setResponse({message: "Post retrieved successfully!", statusCode: 200, payload: foundPost, isBookmarked: await foundPost.isPostBookmarked(userId), title: foundPost.title, template: "Post/ShowView", comments: postComments, isLoggedIn: this.session.exists('user_id'), header: theHeader});
+        await this.response.setResponse({message: "Post retrieved successfully!", statusCode: 200, payload: foundPost, isBookmarked: await foundPost.isPostBookmarked(userId), title: foundPost.title, template: "Post/ShowView", comments: postComments, isLoggedIn: this.session.exists('user_id'), header: this.header});
         return this.response;
     }
 

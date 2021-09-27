@@ -1,0 +1,2275 @@
+[2021-8-3 14:56:15] 📨 >> GET / ""
+[2021-8-3 14:56:15] 💌 << 200 OK
+[2021-8-3 14:56:15] 📨 >> GET /user/1 ""
+[2021-8-3 14:56:15] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:56:15] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:56:15] 💌 << 400 BAD_REQUEST
+[2021-8-3 14:57:22] 📨 >> GET /auth/login ""
+[2021-8-3 14:57:22] 💌 << 200 OK
+[2021-8-3 14:57:22] 📨 >> GET /user/1 ""
+[2021-8-3 14:57:22] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:57:22] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:57:22] 💌 << 400 BAD_REQUEST
+[2021-8-3 14:57:25] 📨 >> GET /auth/register ""
+[2021-8-3 14:57:25] 💌 << 200 OK
+[2021-8-3 14:57:25] 📨 >> GET /user/1 ""
+[2021-8-3 14:57:25] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:57:25] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:57:25] 💌 << 400 BAD_REQUEST
+[2021-8-3 14:57:54] 📨 >> POST /user {
+	"username": "ishpal",
+	"email": "im@hotmail.com",
+	"password": "123"
+}
+[2021-8-3 14:57:54] 💌 << 303 SEE_OTHER
+[2021-8-3 14:57:54] 📨 >> GET /auth/login ""
+[2021-8-3 14:57:54] 💌 << 200 OK
+[2021-8-3 14:57:54] 📨 >> GET /user/1 ""
+[2021-8-3 14:57:54] 💌 << 200 OK
+[2021-8-3 14:58:0] 📨 >> POST /auth/login {
+	"email": "ishpal",
+	"password": "123",
+	"remember": "on"
+}
+[2021-8-3 14:58:0] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:126:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:58:0] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:147:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:58:0] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:228:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:58:0] 💌 << 400 BAD_REQUEST
+[2021-8-3 14:58:15] 📨 >> GET /auth/login ""
+[2021-8-3 14:58:15] 💌 << 200 OK
+[2021-8-3 14:58:15] 📨 >> GET /user/1 ""
+[2021-8-3 14:58:15] 💌 << 200 OK
+[2021-8-3 14:58:16] 📨 >> GET /auth/register ""
+[2021-8-3 14:58:16] 💌 << 200 OK
+[2021-8-3 14:58:16] 📨 >> GET /user/1 ""
+[2021-8-3 14:58:16] 💌 << 200 OK
+[2021-8-3 14:58:19] 📨 >> GET /auth/login ""
+[2021-8-3 14:58:19] 💌 << 200 OK
+[2021-8-3 14:58:19] 📨 >> GET /user/1 ""
+[2021-8-3 14:58:19] 💌 << 200 OK
+[2021-8-3 14:58:27] 📨 >> POST /auth/login {
+	"email": "ishpal",
+	"password": "123"
+}
+[2021-8-3 14:58:27] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:126:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:58:27] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:147:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:58:27] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:228:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:58:27] 💌 << 400 BAD_REQUEST
+[2021-8-3 14:58:29] 📨 >> GET /auth/register ""
+[2021-8-3 14:58:29] 💌 << 200 OK
+[2021-8-3 14:58:29] 📨 >> GET /user/1 ""
+[2021-8-3 14:58:29] 💌 << 200 OK
+[2021-8-3 14:58:44] 📨 >> POST /user {
+	"username": "ishpal",
+	"email": "im@hotmail.com",
+	"password": "123"
+}
+[2021-8-3 14:58:44] UserException: Cannot create User: Duplicate email.
+    at Function.create (/home/ishpal/personal-work/RedditClone/src/models/User.js:84:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.new (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:155:29)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:58:44] UserException: Cannot create User: Duplicate email.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:58:44] 💌 << 400 BAD_REQUEST
+[2021-8-3 14:58:57] 📨 >> POST /user {
+	"username": "ishpal",
+	"email": "is@hotmail.com",
+	"password": "123"
+}
+[2021-8-3 14:58:57] UserException: Cannot create User: Duplicate username.
+    at Function.create (/home/ishpal/personal-work/RedditClone/src/models/User.js:82:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.new (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:155:29)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:58:57] UserException: Cannot create User: Duplicate username.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 14:58:57] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:4:2] 📨 >> POST /user {
+	"username": "is",
+	"email": "is@hotmail.com",
+	"password": "123"
+}
+[2021-8-3 15:4:2] 💌 << 303 SEE_OTHER
+[2021-8-3 15:4:2] 📨 >> GET /auth/login ""
+[2021-8-3 15:4:2] 💌 << 200 OK
+[2021-8-3 15:4:2] 📨 >> GET /user/1 ""
+[2021-8-3 15:4:2] 💌 << 200 OK
+[2021-8-3 15:4:6] 📨 >> POST /auth/login {
+	"email": "is",
+	"password": "123"
+}
+[2021-8-3 15:4:6] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:126:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:4:6] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:147:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:4:6] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:228:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:4:6] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:4:38] 📨 >> POST /auth/login {
+	"email": "is",
+	"password": "123"
+}
+[2021-8-3 15:4:38] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:126:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:4:38] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:147:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:4:38] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:228:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:4:38] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:4:45] 📨 >> GET /auth/register ""
+[2021-8-3 15:4:45] 💌 << 200 OK
+[2021-8-3 15:4:45] 📨 >> GET /user/1 ""
+[2021-8-3 15:4:45] 💌 << 200 OK
+[2021-8-3 15:5:20] 📨 >> GET /auth/register ""
+[2021-8-3 15:5:20] 💌 << 200 OK
+[2021-8-3 15:5:20] 📨 >> GET /user/1 ""
+[2021-8-3 15:5:20] 💌 << 200 OK
+[2021-8-3 15:5:29] 📨 >> POST /user {
+	"username": "ff",
+	"email": "ff",
+	"password": "ff"
+}
+[2021-8-3 15:5:29] 💌 << 303 SEE_OTHER
+[2021-8-3 15:5:29] 📨 >> GET /auth/login ""
+[2021-8-3 15:5:29] 💌 << 200 OK
+[2021-8-3 15:5:29] 📨 >> GET /user/1 ""
+[2021-8-3 15:5:29] 💌 << 200 OK
+[2021-8-3 15:5:32] 📨 >> POST /auth/login {
+	"email": "ff",
+	"password": "ff"
+}
+[2021-8-3 15:5:32] 💌 << 303 SEE_OTHER
+[2021-8-3 15:5:32] 📨 >> GET /user/5 ""
+[2021-8-3 15:5:32] 💌 << 200 OK
+[2021-8-3 15:5:32] 📨 >> GET /user/1 ""
+[2021-8-3 15:5:32] 💌 << 200 OK
+[2021-8-3 15:5:40] 📨 >> GET /auth/logout ""
+[2021-8-3 15:5:40] 💌 << 303 SEE_OTHER
+[2021-8-3 15:5:40] 📨 >> GET / ""
+[2021-8-3 15:5:40] 💌 << 200 OK
+[2021-8-3 15:5:40] 📨 >> GET /user/1 ""
+[2021-8-3 15:5:40] 💌 << 200 OK
+[2021-8-3 15:5:43] 📨 >> GET /auth/register ""
+[2021-8-3 15:5:43] 💌 << 200 OK
+[2021-8-3 15:5:43] 📨 >> GET /user/1 ""
+[2021-8-3 15:5:43] 💌 << 200 OK
+[2021-8-3 15:5:49] 📨 >> POST /user {
+	"username": "rr",
+	"email": "ff",
+	"password": "ff"
+}
+[2021-8-3 15:5:49] UserException: Cannot create User: Duplicate email.
+    at Function.create (/home/ishpal/personal-work/RedditClone/src/models/User.js:84:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.new (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:155:29)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:5:49] UserException: Cannot create User: Duplicate email.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:5:49] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:5:56] 📨 >> POST /user {
+	"username": "rr",
+	"email": "rr",
+	"password": "ff"
+}
+[2021-8-3 15:5:56] 💌 << 303 SEE_OTHER
+[2021-8-3 15:5:56] 📨 >> GET /auth/login ""
+[2021-8-3 15:5:56] 💌 << 200 OK
+[2021-8-3 15:5:56] 📨 >> GET /user/1 ""
+[2021-8-3 15:5:56] 💌 << 200 OK
+[2021-8-3 15:5:59] 📨 >> POST /auth/login {
+	"email": "rr",
+	"password": "ff"
+}
+[2021-8-3 15:5:59] 💌 << 303 SEE_OTHER
+[2021-8-3 15:5:59] 📨 >> GET /user/7 ""
+[2021-8-3 15:5:59] 💌 << 200 OK
+[2021-8-3 15:5:59] 📨 >> GET /user/1 ""
+[2021-8-3 15:5:59] 💌 << 200 OK
+[2021-8-3 15:6:12] 📨 >> GET /auth/logout ""
+[2021-8-3 15:6:12] 💌 << 303 SEE_OTHER
+[2021-8-3 15:6:12] 📨 >> GET / ""
+[2021-8-3 15:6:12] 💌 << 200 OK
+[2021-8-3 15:6:12] 📨 >> GET /user/1 ""
+[2021-8-3 15:6:12] 💌 << 200 OK
+[2021-8-3 15:6:13] 📨 >> GET /auth/register ""
+[2021-8-3 15:6:13] 💌 << 200 OK
+[2021-8-3 15:6:13] 📨 >> GET /user/1 ""
+[2021-8-3 15:6:13] 💌 << 200 OK
+[2021-8-3 15:6:55] 📨 >> POST /user {
+	"username": "imattu",
+	"email": "m@hotmail.com",
+	"password": "im123"
+}
+[2021-8-3 15:6:55] 💌 << 303 SEE_OTHER
+[2021-8-3 15:6:55] 📨 >> GET /auth/login ""
+[2021-8-3 15:6:55] 💌 << 200 OK
+[2021-8-3 15:6:55] 📨 >> GET /user/1 ""
+[2021-8-3 15:6:55] 💌 << 200 OK
+[2021-8-3 15:7:1] 📨 >> POST /auth/login {
+	"email": "imattu",
+	"password": "im123",
+	"remember": "on"
+}
+[2021-8-3 15:7:1] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:126:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:7:1] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:147:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:7:1] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:228:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:7:1] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:8:27] 📨 >> POST /auth/login {
+	"email": "imattu",
+	"password": "im",
+	"remember": "on"
+}
+[2021-8-3 15:8:27] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:126:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:8:27] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:147:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:8:27] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:228:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:8:27] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:8:33] 📨 >> GET /auth/register ""
+[2021-8-3 15:8:33] 💌 << 200 OK
+[2021-8-3 15:8:33] 📨 >> GET /user/1 ""
+[2021-8-3 15:8:33] 💌 << 200 OK
+[2021-8-3 15:11:36] 📨 >> GET /auth/login ""
+[2021-8-3 15:11:36] 💌 << 200 OK
+[2021-8-3 15:11:37] 📨 >> GET /user/1 ""
+[2021-8-3 15:11:37] 💌 << 200 OK
+[2021-8-3 15:11:46] 📨 >> POST /auth/login {
+	"email": "ishpal",
+	"password": "123"
+}
+[2021-8-3 15:11:46] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:126:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:11:46] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.logIn (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:147:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:225:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:11:46] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/AuthController.js:228:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:11:46] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:13:35] 📨 >> POST /auth/login {
+	"email": "im@hotmail.com",
+	"password": "123"
+}
+[2021-8-3 15:13:35] 💌 << 303 SEE_OTHER
+[2021-8-3 15:13:35] 📨 >> GET /user/1 ""
+[2021-8-3 15:13:35] 💌 << 200 OK
+[2021-8-3 15:13:35] 📨 >> GET /user/1 ""
+[2021-8-3 15:13:35] 💌 << 200 OK
+[2021-8-3 15:13:51] 📨 >> GET /auth/logout ""
+[2021-8-3 15:13:51] 💌 << 303 SEE_OTHER
+[2021-8-3 15:13:51] 📨 >> GET / ""
+[2021-8-3 15:13:51] 💌 << 200 OK
+[2021-8-3 15:13:52] 📨 >> GET /user/1 ""
+[2021-8-3 15:13:52] 💌 << 200 OK
+[2021-8-3 15:14:45] 📨 >> GET /auth/register ""
+[2021-8-3 15:14:45] 💌 << 200 OK
+[2021-8-3 15:14:45] 📨 >> GET /user/1 ""
+[2021-8-3 15:14:45] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:14:45] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:14:45] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:15:1] 📨 >> POST /user {
+	"username": "ishpal",
+	"email": "im@hotmail.com",
+	"password": "123"
+}
+[2021-8-3 15:15:1] 💌 << 303 SEE_OTHER
+[2021-8-3 15:15:1] 📨 >> GET /auth/login ""
+[2021-8-3 15:15:1] 💌 << 200 OK
+[2021-8-3 15:15:1] 📨 >> GET /user/1 ""
+[2021-8-3 15:15:1] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:15:1] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:15:1] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:15:10] 📨 >> POST /auth/login {
+	"email": "im@hotmail.com",
+	"password": "123",
+	"remember": "on"
+}
+[2021-8-3 15:15:10] 💌 << 303 SEE_OTHER
+[2021-8-3 15:15:10] 📨 >> GET /user/9 ""
+[2021-8-3 15:15:10] 💌 << 200 OK
+[2021-8-3 15:15:11] 📨 >> GET /user/1 ""
+[2021-8-3 15:15:11] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:15:11] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:15:11] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:15:26] 📨 >> GET / ""
+[2021-8-3 15:15:26] 💌 << 200 OK
+[2021-8-3 15:15:26] 📨 >> GET /user/1 ""
+[2021-8-3 15:15:26] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:15:26] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:15:26] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:16:8] 📨 >> POST /category {
+	"userId": "",
+	"title": "Video Games",
+	"description": "category for all video game related posts"
+}
+[2021-8-3 15:16:8] 💌 << 303 SEE_OTHER
+[2021-8-3 15:16:8] 📨 >> GET / ""
+[2021-8-3 15:16:8] 💌 << 200 OK
+[2021-8-3 15:16:8] 📨 >> GET /user/1 ""
+[2021-8-3 15:16:8] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:16:8] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:16:8] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:17:24] 📨 >> GET / ""
+[2021-8-3 15:17:24] 💌 << 200 OK
+[2021-8-3 15:17:24] 📨 >> GET /user/1 ""
+[2021-8-3 15:17:24] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:24] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:24] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:17:42] 📨 >> GET / ""
+[2021-8-3 15:17:43] 💌 << 200 OK
+[2021-8-3 15:17:43] 📨 >> GET /user/1 ""
+[2021-8-3 15:17:43] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:43] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:43] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:17:44] 📨 >> GET / ""
+[2021-8-3 15:17:44] 💌 << 200 OK
+[2021-8-3 15:17:44] 📨 >> GET /user/1 ""
+[2021-8-3 15:17:44] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:44] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:44] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:17:49] 📨 >> GET /auth/login ""
+[2021-8-3 15:17:49] 💌 << 200 OK
+[2021-8-3 15:17:50] 📨 >> GET /user/1 ""
+[2021-8-3 15:17:50] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:50] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:50] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:17:53] 📨 >> GET /auth/login ""
+[2021-8-3 15:17:53] 💌 << 200 OK
+[2021-8-3 15:17:53] 📨 >> GET /user/1 ""
+[2021-8-3 15:17:53] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:53] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:53] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:17:55] 📨 >> GET /user/new ""
+[2021-8-3 15:17:55] 💌 << 200 OK
+[2021-8-3 15:17:55] 📨 >> GET /user/1 ""
+[2021-8-3 15:17:55] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:55] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:55] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:17:58] 📨 >> GET / ""
+[2021-8-3 15:17:58] 💌 << 200 OK
+[2021-8-3 15:17:58] 📨 >> GET /user/1 ""
+[2021-8-3 15:17:58] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:58] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:17:58] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:18:0] 📨 >> GET /user/new ""
+[2021-8-3 15:18:0] 💌 << 200 OK
+[2021-8-3 15:18:0] 📨 >> GET /user/1 ""
+[2021-8-3 15:18:0] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:18:0] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:18:0] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:18:2] 📨 >> GET / ""
+[2021-8-3 15:18:2] 💌 << 200 OK
+[2021-8-3 15:18:3] 📨 >> GET /user/1 ""
+[2021-8-3 15:18:3] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:18:3] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:18:3] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:18:4] 📨 >> GET /auth/register ""
+[2021-8-3 15:18:4] 💌 << 200 OK
+[2021-8-3 15:18:4] 📨 >> GET /user/1 ""
+[2021-8-3 15:18:4] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:18:4] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:18:4] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:18:6] 📨 >> GET /user/new ""
+[2021-8-3 15:18:6] 💌 << 200 OK
+[2021-8-3 15:18:6] 📨 >> GET /user/1 ""
+[2021-8-3 15:18:6] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:18:6] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:18:6] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:18:8] 📨 >> GET / ""
+[2021-8-3 15:18:8] 💌 << 200 OK
+[2021-8-3 15:18:8] 📨 >> GET /user/1 ""
+[2021-8-3 15:18:8] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:18:8] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:18:8] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:18:51] 📨 >> GET / ""
+[2021-8-3 15:18:51] 💌 << 200 OK
+[2021-8-3 15:18:51] 📨 >> GET /user/1 ""
+[2021-8-3 15:18:51] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:18:51] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:18:51] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:19:11] 📨 >> GET / ""
+[2021-8-3 15:19:11] 💌 << 200 OK
+[2021-8-3 15:19:11] 📨 >> GET /user/1 ""
+[2021-8-3 15:19:11] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:11] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:11] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:19:12] 📨 >> GET / ""
+[2021-8-3 15:19:12] 💌 << 200 OK
+[2021-8-3 15:19:12] 📨 >> GET /user/1 ""
+[2021-8-3 15:19:12] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:12] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:12] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:19:13] 📨 >> GET / ""
+[2021-8-3 15:19:13] 💌 << 200 OK
+[2021-8-3 15:19:13] 📨 >> GET /user/1 ""
+[2021-8-3 15:19:13] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:13] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:13] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:19:24] 📨 >> GET / ""
+[2021-8-3 15:19:24] 💌 << 200 OK
+[2021-8-3 15:19:24] 📨 >> GET /user/1 ""
+[2021-8-3 15:19:24] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:24] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:24] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:19:25] 📨 >> GET / ""
+[2021-8-3 15:19:25] 💌 << 200 OK
+[2021-8-3 15:19:25] 📨 >> GET /user/1 ""
+[2021-8-3 15:19:25] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:25] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:25] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:19:28] 📨 >> GET / ""
+[2021-8-3 15:19:28] 💌 << 200 OK
+[2021-8-3 15:19:28] 📨 >> GET /user/1 ""
+[2021-8-3 15:19:28] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:28] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:28] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:19:39] 📨 >> GET /auth/login ""
+[2021-8-3 15:19:39] 💌 << 200 OK
+[2021-8-3 15:19:39] 📨 >> GET /user/1 ""
+[2021-8-3 15:19:39] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:39] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:39] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:19:45] 📨 >> POST /auth/login {
+	"email": "im@hotmail.com",
+	"password": "123",
+	"remember": "on"
+}
+[2021-8-3 15:19:45] 💌 << 303 SEE_OTHER
+[2021-8-3 15:19:45] 📨 >> GET /user/9 ""
+[2021-8-3 15:19:45] 💌 << 200 OK
+[2021-8-3 15:19:45] 📨 >> GET /user/1 ""
+[2021-8-3 15:19:45] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:45] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:45] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:19:47] 📨 >> GET / ""
+[2021-8-3 15:19:47] 💌 << 200 OK
+[2021-8-3 15:19:47] 📨 >> GET /user/1 ""
+[2021-8-3 15:19:47] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:47] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:47] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:19:58] 📨 >> GET / ""
+[2021-8-3 15:19:58] 💌 << 200 OK
+[2021-8-3 15:19:58] 📨 >> GET /user/1 ""
+[2021-8-3 15:19:58] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:58] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:19:58] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:20:1] 📨 >> GET /auth/login ""
+[2021-8-3 15:20:1] 💌 << 200 OK
+[2021-8-3 15:20:1] 📨 >> GET /user/1 ""
+[2021-8-3 15:20:1] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:20:1] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:20:1] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:20:4] 📨 >> POST /auth/login {
+	"email": "im@hotmail.com",
+	"password": "123",
+	"remember": "on"
+}
+[2021-8-3 15:20:4] 💌 << 303 SEE_OTHER
+[2021-8-3 15:20:4] 📨 >> GET /user/9 ""
+[2021-8-3 15:20:4] 💌 << 200 OK
+[2021-8-3 15:20:4] 📨 >> GET /user/1 ""
+[2021-8-3 15:20:4] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:20:4] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:20:4] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:20:5] 📨 >> GET / ""
+[2021-8-3 15:20:5] 💌 << 200 OK
+[2021-8-3 15:20:5] 📨 >> GET /user/1 ""
+[2021-8-3 15:20:5] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:20:5] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:20:5] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:20:35] 📨 >> POST /category {
+	"title": "Memes",
+	"description": "Category for any type of meme"
+}
+[2021-8-3 15:20:35] 💌 << 303 SEE_OTHER
+[2021-8-3 15:20:35] 📨 >> GET / ""
+[2021-8-3 15:20:35] 💌 << 200 OK
+[2021-8-3 15:20:35] 📨 >> GET /user/1 ""
+[2021-8-3 15:20:35] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:20:35] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:20:35] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:35:6] 📨 >> GET / ""
+[2021-8-3 15:35:6] 💌 << 200 OK
+[2021-8-3 15:35:6] 📨 >> GET /user/1 ""
+[2021-8-3 15:35:6] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:35:6] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:35:6] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:41:35] 📨 >> GET / ""
+[2021-8-3 15:41:35] 💌 << 200 OK
+[2021-8-3 15:41:35] 📨 >> GET /user/1 ""
+[2021-8-3 15:41:35] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:41:35] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:41:35] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:41:42] 📨 >> GET / ""
+[2021-8-3 15:41:42] 💌 << 200 OK
+[2021-8-3 15:41:42] 📨 >> GET /user/1 ""
+[2021-8-3 15:41:42] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:41:42] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:41:42] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:43:41] 📨 >> GET / ""
+[2021-8-3 15:43:41] 💌 << 200 OK
+[2021-8-3 15:43:41] 📨 >> GET /user/1 ""
+[2021-8-3 15:43:41] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:43:41] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:43:41] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:44:1] 📨 >> GET / ""
+[2021-8-3 15:44:1] 💌 << 200 OK
+[2021-8-3 15:44:1] 📨 >> GET /user/1 ""
+[2021-8-3 15:44:1] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:44:1] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:44:1] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:51:27] 📨 >> GET / ""
+[2021-8-3 15:51:27] 💌 << 200 OK
+[2021-8-3 15:51:27] 📨 >> GET /user/1 ""
+[2021-8-3 15:51:27] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:51:27] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:51:27] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:52:34] 📨 >> GET / ""
+[2021-8-3 15:52:34] 💌 << 200 OK
+[2021-8-3 15:52:34] 📨 >> GET /user/1 ""
+[2021-8-3 15:52:34] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:52:34] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:52:34] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:52:40] 📨 >> GET / ""
+[2021-8-3 15:52:40] 💌 << 200 OK
+[2021-8-3 15:52:40] 📨 >> GET /user/1 ""
+[2021-8-3 15:52:40] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:52:40] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:52:40] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:53:53] 📨 >> GET / ""
+[2021-8-3 15:53:53] 💌 << 200 OK
+[2021-8-3 15:53:53] 📨 >> GET /user/1 ""
+[2021-8-3 15:53:53] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:53:53] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:53:53] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:54:29] 📨 >> GET / ""
+[2021-8-3 15:54:29] 💌 << 200 OK
+[2021-8-3 15:54:30] 📨 >> GET /user/1 ""
+[2021-8-3 15:54:30] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:54:30] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:54:30] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:54:39] 📨 >> GET / ""
+[2021-8-3 15:54:39] 💌 << 200 OK
+[2021-8-3 15:54:39] 📨 >> GET /user/1 ""
+[2021-8-3 15:54:39] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:54:39] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:54:39] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:55:9] 📨 >> GET / ""
+[2021-8-3 15:55:9] 💌 << 200 OK
+[2021-8-3 15:55:10] 📨 >> GET /user/1 ""
+[2021-8-3 15:55:10] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:55:10] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:55:10] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:55:34] 📨 >> GET /auth/login ""
+[2021-8-3 15:55:34] 💌 << 200 OK
+[2021-8-3 15:55:35] 📨 >> GET /user/1 ""
+[2021-8-3 15:55:35] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:55:35] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:55:35] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:55:59] 📨 >> GET / ""
+[2021-8-3 15:55:59] 💌 << 200 OK
+[2021-8-3 15:55:59] 📨 >> GET /user/1 ""
+[2021-8-3 15:55:59] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:55:59] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:55:59] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:56:10] 📨 >> GET / ""
+[2021-8-3 15:56:10] 💌 << 200 OK
+[2021-8-3 15:56:11] 📨 >> GET /user/1 ""
+[2021-8-3 15:56:11] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:11] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:11] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:56:22] 📨 >> GET / ""
+[2021-8-3 15:56:22] 💌 << 200 OK
+[2021-8-3 15:56:22] 📨 >> GET /user/1 ""
+[2021-8-3 15:56:22] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:22] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:22] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:56:33] 📨 >> GET / ""
+[2021-8-3 15:56:33] 💌 << 200 OK
+[2021-8-3 15:56:33] 📨 >> GET /user/1 ""
+[2021-8-3 15:56:33] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:33] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:33] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:56:45] 📨 >> GET / ""
+[2021-8-3 15:56:45] 💌 << 200 OK
+[2021-8-3 15:56:46] 📨 >> GET /user/1 ""
+[2021-8-3 15:56:46] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:46] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:46] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:56:54] 📨 >> GET / ""
+[2021-8-3 15:56:54] 💌 << 200 OK
+[2021-8-3 15:56:54] 📨 >> GET /user/1 ""
+[2021-8-3 15:56:54] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:54] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:54] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:56:58] 📨 >> GET / ""
+[2021-8-3 15:56:58] 💌 << 200 OK
+[2021-8-3 15:56:58] 📨 >> GET /user/1 ""
+[2021-8-3 15:56:58] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:58] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:58] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:56:59] 📨 >> GET / ""
+[2021-8-3 15:56:59] 💌 << 200 OK
+[2021-8-3 15:56:59] 📨 >> GET /user/1 ""
+[2021-8-3 15:56:59] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:59] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:56:59] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:57:6] 📨 >> GET / ""
+[2021-8-3 15:57:6] 💌 << 200 OK
+[2021-8-3 15:57:7] 📨 >> GET /user/1 ""
+[2021-8-3 15:57:7] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:57:7] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:57:7] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:57:11] 📨 >> GET / ""
+[2021-8-3 15:57:11] 💌 << 200 OK
+[2021-8-3 15:57:11] 📨 >> GET /user/1 ""
+[2021-8-3 15:57:11] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:57:11] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:57:11] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:57:53] 📨 >> GET / ""
+[2021-8-3 15:57:53] 💌 << 200 OK
+[2021-8-3 15:57:53] 📨 >> GET /user/1 ""
+[2021-8-3 15:57:53] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:57:53] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:57:53] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:57:58] 📨 >> GET / ""
+[2021-8-3 15:57:58] 💌 << 200 OK
+[2021-8-3 15:57:58] 📨 >> GET /user/1 ""
+[2021-8-3 15:57:58] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:57:58] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:57:58] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:58:5] 📨 >> GET / ""
+[2021-8-3 15:58:5] 💌 << 200 OK
+[2021-8-3 15:58:5] 📨 >> GET /user/1 ""
+[2021-8-3 15:58:5] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:58:5] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:58:5] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:58:9] 📨 >> GET / ""
+[2021-8-3 15:58:9] 💌 << 200 OK
+[2021-8-3 15:58:10] 📨 >> GET /user/1 ""
+[2021-8-3 15:58:10] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:58:10] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:58:10] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:58:17] 📨 >> GET / ""
+[2021-8-3 15:58:17] 💌 << 200 OK
+[2021-8-3 15:58:18] 📨 >> GET /user/1 ""
+[2021-8-3 15:58:18] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:58:18] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:58:18] 💌 << 400 BAD_REQUEST
+[2021-8-3 15:58:46] 📨 >> GET / ""
+[2021-8-3 15:58:46] 💌 << 200 OK
+[2021-8-3 15:58:46] 📨 >> GET /user/1 ""
+[2021-8-3 15:58:46] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:58:46] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 15:58:46] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:1:11] 📨 >> GET / ""
+[2021-8-3 16:1:11] 💌 << 200 OK
+[2021-8-3 16:1:11] 📨 >> GET /user/1 ""
+[2021-8-3 16:1:11] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:1:11] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:1:11] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:1:18] 📨 >> GET / ""
+[2021-8-3 16:1:18] 💌 << 200 OK
+[2021-8-3 16:1:18] 📨 >> GET /user/1 ""
+[2021-8-3 16:1:18] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:1:18] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:1:18] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:1:25] 📨 >> GET / ""
+[2021-8-3 16:1:25] 💌 << 200 OK
+[2021-8-3 16:1:25] 📨 >> GET /user/1 ""
+[2021-8-3 16:1:25] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:1:25] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:1:25] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:1:41] 📨 >> GET / ""
+[2021-8-3 16:1:41] 💌 << 200 OK
+[2021-8-3 16:1:41] 📨 >> GET /user/1 ""
+[2021-8-3 16:1:41] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:1:41] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:1:41] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:1:48] 📨 >> GET / ""
+[2021-8-3 16:1:48] 💌 << 200 OK
+[2021-8-3 16:1:48] 📨 >> GET /user/1 ""
+[2021-8-3 16:1:48] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:1:48] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:1:48] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:3:23] 📨 >> GET / ""
+[2021-8-3 16:3:23] 💌 << 200 OK
+[2021-8-3 16:3:23] 📨 >> GET /user/1 ""
+[2021-8-3 16:3:23] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:3:23] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:3:23] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:3:34] 📨 >> GET / ""
+[2021-8-3 16:3:34] 💌 << 200 OK
+[2021-8-3 16:3:34] 📨 >> GET /user/1 ""
+[2021-8-3 16:3:34] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:3:34] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:3:34] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:3:35] 📨 >> GET / ""
+[2021-8-3 16:3:35] 💌 << 200 OK
+[2021-8-3 16:3:35] 📨 >> GET /user/1 ""
+[2021-8-3 16:3:35] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:3:35] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:3:35] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:3:43] 📨 >> GET / ""
+[2021-8-3 16:3:43] 💌 << 200 OK
+[2021-8-3 16:3:43] 📨 >> GET /user/1 ""
+[2021-8-3 16:3:43] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:3:43] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:3:43] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:3:51] 📨 >> GET / ""
+[2021-8-3 16:3:51] 💌 << 200 OK
+[2021-8-3 16:3:51] 📨 >> GET /user/1 ""
+[2021-8-3 16:3:51] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:3:51] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:3:51] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:15:21] 📨 >> GET / ""
+[2021-8-3 16:15:21] 💌 << 200 OK
+[2021-8-3 16:15:21] 📨 >> GET /user/1 ""
+[2021-8-3 16:15:21] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:15:21] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:15:21] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:15:32] 📨 >> GET / ""
+[2021-8-3 16:15:32] 💌 << 200 OK
+[2021-8-3 16:15:32] 📨 >> GET /user/1 ""
+[2021-8-3 16:15:32] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:15:32] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:15:32] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:15:47] 📨 >> GET / ""
+[2021-8-3 16:15:47] 💌 << 200 OK
+[2021-8-3 16:15:47] 📨 >> GET /user/1 ""
+[2021-8-3 16:15:47] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:15:47] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:15:47] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:17:13] 📨 >> GET / ""
+[2021-8-3 16:17:13] 💌 << 200 OK
+[2021-8-3 16:17:14] 📨 >> GET /user/1 ""
+[2021-8-3 16:17:14] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:17:14] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:17:14] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:17:22] 📨 >> GET / ""
+[2021-8-3 16:17:22] 💌 << 200 OK
+[2021-8-3 16:17:22] 📨 >> GET /user/1 ""
+[2021-8-3 16:17:22] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:17:22] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:17:22] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:17:26] 📨 >> GET / ""
+[2021-8-3 16:17:26] 💌 << 200 OK
+[2021-8-3 16:17:26] 📨 >> GET /user/1 ""
+[2021-8-3 16:17:26] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:17:26] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:17:26] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:17:31] 📨 >> GET / ""
+[2021-8-3 16:17:31] 💌 << 200 OK
+[2021-8-3 16:17:31] 📨 >> GET /user/1 ""
+[2021-8-3 16:17:31] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:17:31] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:17:31] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:18:50] 📨 >> GET / ""
+[2021-8-3 16:18:50] 💌 << 200 OK
+[2021-8-3 16:18:50] 📨 >> GET /user/1 ""
+[2021-8-3 16:18:50] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:18:50] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:18:50] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:19:6] 📨 >> GET / ""
+[2021-8-3 16:19:6] 💌 << 200 OK
+[2021-8-3 16:19:6] 📨 >> GET /user/1 ""
+[2021-8-3 16:19:6] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:19:6] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:19:6] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:19:8] 📨 >> GET / ""
+[2021-8-3 16:19:8] 💌 << 200 OK
+[2021-8-3 16:19:8] 📨 >> GET /user/1 ""
+[2021-8-3 16:19:8] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:19:8] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:19:8] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:19:35] 📨 >> GET / ""
+[2021-8-3 16:19:35] 💌 << 200 OK
+[2021-8-3 16:19:35] 📨 >> GET /user/1 ""
+[2021-8-3 16:19:35] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:19:35] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:19:35] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:19:53] 📨 >> GET / ""
+[2021-8-3 16:19:53] 💌 << 200 OK
+[2021-8-3 16:19:53] 📨 >> GET /user/1 ""
+[2021-8-3 16:19:53] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:19:53] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:19:53] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:19:58] 📨 >> GET / ""
+[2021-8-3 16:19:58] 💌 << 200 OK
+[2021-8-3 16:19:58] 📨 >> GET /user/1 ""
+[2021-8-3 16:19:58] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:19:58] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:19:58] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:20:10] 📨 >> GET / ""
+[2021-8-3 16:20:10] 💌 << 200 OK
+[2021-8-3 16:20:10] 📨 >> GET /user/1 ""
+[2021-8-3 16:20:10] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:20:10] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:20:10] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:20:23] 📨 >> GET / ""
+[2021-8-3 16:20:23] 💌 << 200 OK
+[2021-8-3 16:20:23] 📨 >> GET /user/1 ""
+[2021-8-3 16:20:23] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:20:23] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:20:23] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:20:49] 📨 >> GET / ""
+[2021-8-3 16:20:49] 💌 << 200 OK
+[2021-8-3 16:20:49] 📨 >> GET /user/1 ""
+[2021-8-3 16:20:49] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:20:49] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:20:49] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:21:19] 📨 >> GET / ""
+[2021-8-3 16:21:19] 💌 << 200 OK
+[2021-8-3 16:21:19] 📨 >> GET /user/1 ""
+[2021-8-3 16:21:20] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:21:20] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:21:20] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:21:33] 📨 >> GET / ""
+[2021-8-3 16:21:33] 💌 << 200 OK
+[2021-8-3 16:21:33] 📨 >> GET /user/1 ""
+[2021-8-3 16:21:33] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:21:33] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:21:33] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:22:3] 📨 >> GET / ""
+[2021-8-3 16:22:3] 💌 << 200 OK
+[2021-8-3 16:22:3] 📨 >> GET /user/1 ""
+[2021-8-3 16:22:3] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:22:3] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:22:3] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:28:14] 📨 >> GET / ""
+[2021-8-3 16:28:14] 💌 << 200 OK
+[2021-8-3 16:28:14] 📨 >> GET /user/1 ""
+[2021-8-3 16:28:14] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:28:14] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:28:14] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:28:40] 📨 >> GET / ""
+[2021-8-3 16:28:40] 💌 << 200 OK
+[2021-8-3 16:28:40] 📨 >> GET /user/1 ""
+[2021-8-3 16:28:40] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:28:40] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:28:40] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:28:51] 📨 >> GET / ""
+[2021-8-3 16:28:51] 💌 << 200 OK
+[2021-8-3 16:28:51] 📨 >> GET /user/1 ""
+[2021-8-3 16:28:51] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:28:51] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:28:51] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:34:17] 📨 >> GET / ""
+[2021-8-3 16:34:17] 💌 << 200 OK
+[2021-8-3 16:34:17] 📨 >> GET /user/1 ""
+[2021-8-3 16:34:17] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:34:17] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:34:17] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:34:50] 📨 >> GET / ""
+[2021-8-3 16:34:50] 💌 << 200 OK
+[2021-8-3 16:34:50] 📨 >> GET /user/1 ""
+[2021-8-3 16:34:50] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:34:50] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:34:50] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:40:55] 📨 >> GET / ""
+[2021-8-3 16:40:55] 💌 << 200 OK
+[2021-8-3 16:40:55] 📨 >> GET /user/1 ""
+[2021-8-3 16:40:55] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:40:55] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:40:55] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:46:54] 📨 >> GET / ""
+[2021-8-3 16:46:54] 💌 << 200 OK
+[2021-8-3 16:46:54] 📨 >> GET /user/1 ""
+[2021-8-3 16:46:54] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:46:54] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:46:54] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:47:15] 📨 >> GET / ""
+[2021-8-3 16:47:15] 💌 << 200 OK
+[2021-8-3 16:47:15] 📨 >> GET /user/1 ""
+[2021-8-3 16:47:15] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:47:15] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:47:15] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:47:59] 📨 >> GET / ""
+[2021-8-3 16:47:59] 💌 << 200 OK
+[2021-8-3 16:47:59] 📨 >> GET /user/1 ""
+[2021-8-3 16:47:59] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:47:59] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:47:59] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:48:10] 📨 >> GET / ""
+[2021-8-3 16:48:10] 💌 << 200 OK
+[2021-8-3 16:48:10] 📨 >> GET /user/1 ""
+[2021-8-3 16:48:10] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:48:10] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:48:10] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:48:19] 📨 >> GET / ""
+[2021-8-3 16:48:19] 💌 << 200 OK
+[2021-8-3 16:48:19] 📨 >> GET /user/1 ""
+[2021-8-3 16:48:19] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:48:19] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:48:19] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:48:30] 📨 >> GET / ""
+[2021-8-3 16:48:31] 💌 << 200 OK
+[2021-8-3 16:48:31] 📨 >> GET /user/1 ""
+[2021-8-3 16:48:31] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:48:31] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:48:31] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:48:42] 📨 >> GET / ""
+[2021-8-3 16:48:42] 💌 << 200 OK
+[2021-8-3 16:48:42] 📨 >> GET /user/1 ""
+[2021-8-3 16:48:42] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:48:42] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:48:42] 💌 << 400 BAD_REQUEST
+[2021-8-3 16:49:16] 📨 >> GET / ""
+[2021-8-3 16:49:16] 💌 << 200 OK
+[2021-8-3 16:49:16] 📨 >> GET /user/1 ""
+[2021-8-3 16:49:16] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:174:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:282:30)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:49:16] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.doAction (/home/ishpal/personal-work/RedditClone/src/controllers/UserController.js:285:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/ishpal/personal-work/RedditClone/src/router/Router.js:52:30)
+    at async App.sendResponse (/home/ishpal/personal-work/RedditClone/src/App.js:43:20)
+    at async Server.<anonymous> (/home/ishpal/personal-work/RedditClone/server.js:91:2)
+[2021-8-3 16:49:16] 💌 << 400 BAD_REQUEST

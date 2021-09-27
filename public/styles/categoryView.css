@@ -1,0 +1,6 @@
+
+#editInfo{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}

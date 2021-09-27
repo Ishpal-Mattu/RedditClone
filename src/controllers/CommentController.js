@@ -8,7 +8,12 @@ const HttpStatusCode = require('../helpers/HttpStatusCode');
 class CommentController extends Controller {
     constructor(request, response, session){
         super(request, response, session);
-        this.headerLinks = [{link: "http://localhost:8000", name: "Home"}, {link: "http://localhost:8000/user/new", name: "Create User"}];
+        const profile = {link: `http://localhost:8000/user/${this.session.get('user_id')}`, name: "Profile"};
+        
+        this.header = [];
+
+        if(this.session.get('user_id'))
+            this.header.push(profile);
 
         const requestMethod = this.request.getRequestMethod();
         
@@ -253,10 +258,10 @@ class CommentController extends Controller {
         foundComment.isUpVoted = await foundComment.isCommentUpVoted(userId);
         foundComment.totalVotes = await foundComment.getTotalVotes();
 
-        const theHeader = this.headerLinks;
-        theHeader.push({link: `http://localhost:8000/user/${userId}`, name: "My Profile"});
+        // const theHeader = this.headerLinks;
+        // theHeader.push({link: `http://localhost:8000/user/${userId}`, name: "My Profile"});
 
-        await this.response.setResponse({message: "Comment retrieved successfully!", statusCode: 200, payload: foundComment, template: "Comment/ShowView", title: "See comment", replies: commentReplies, isLoggedIn: this.session.exists('user_id'), header: theHeader});
+        await this.response.setResponse({message: "Comment retrieved successfully!", statusCode: 200, payload: foundComment, template: "Comment/ShowView", title: "See comment", replies: commentReplies, isLoggedIn: this.session.exists('user_id'), header: this.header});
         
         return this.response;
     }

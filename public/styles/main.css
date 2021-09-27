@@ -1,0 +1,86 @@
+#page-wrap{
+    width: 60%;
+    margin: 0 auto;
+    border: lightgrey solid 1px;
+    z-index: 2;
+    box-shadow: 1px 1px 1px lightgrey;
+    background: white;
+    padding: 35px;
+    -moz-box-shadow: 0 0 15px darkgray;
+    -webkit-box-shadow: 0 0 15px darkgray;
+    box-shadow: 0 0 15px darkgray;
+}
+html{
+    padding-top: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/wallpaper.jpg);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: black;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    border: solid darkslategrey;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 5% 1% 5% 1%/1% 5% 1% 5%;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+nav .mainBtns{
+    font-size: x-large;
+}
+nav .navBtns{
+    border-bottom: black solid 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+nav .navBtns:hover{
+    color: rgb(97, 114, 114);
+    /* border-bottom-color: darkgray; */
+}
+
+nav .otherBtns a{
+    margin-left: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    background-color: gainsboro;
+    font-family: inherit;
+    border-width: 1.5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input{
+    font-family: inherit;
+}
+
+th{
+    text-align: left;
+}
+table{
+    width: 100%;
+}
+
+td, th{
+    border-bottom: solid 1px gainsboro;
+    padding-bottom: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+
+
+
+

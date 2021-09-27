@@ -1,0 +1,8 @@
+#userActivity{
+    display: flex;
+    justify-content: space-evenly;
+}
+#delete-user-form{
+    margin-top: 40px;
+    align-items: center;
+}

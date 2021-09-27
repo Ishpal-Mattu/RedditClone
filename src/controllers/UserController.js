@@ -64,7 +64,12 @@ class UserController extends Controller {
             this.action = this.new;
         }
 
-        this.header = [{link: "http://localhost:8000", name: "Home"}, {link: "http://localhost:8000/user/new", name: "Create User"}];
+        const profile = {link: `http://localhost:8000/user/${this.session.get('user_id')}`, name: "Profile"};
+        
+        this.header = [];
+
+        if(this.session.get('user_id'))
+            this.header.push(profile);
     }
 
     async getPostBookmarks(){

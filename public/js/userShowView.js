@@ -17,10 +17,26 @@ seeUserCommentsButton.addEventListener('click', () => {
             const commentTable = document.createElement('table');
             commentTable.setAttribute('id', 'user-comments');
 
-            // Append table body to table
-            const tableBody = document.createElement('tbody');
+            // Append table head to table 
+            const headers = ['Comment', 'Post Title', 'Created At'];
+
+            const tableHead = document.createElement('thead');
             let tableRow = document.createElement('tr');
             let tableData;
+            let tableHeadings;
+            for(let i = 0; i<headers.length; i++)
+            {
+                tableHeadings = document.createElement('th');
+                tableHeadings.innerText = headers[i];
+                tableRow.appendChild(tableHeadings);
+            }
+
+            tableHead.appendChild(tableRow);
+            commentTable.appendChild(tableHead);
+
+            // Append table body to table
+            const tableBody = document.createElement('tbody');
+            tableRow = document.createElement('tr');
 
             for(let i = 0; i < theResponse.payload.length; i++)
             {
@@ -49,7 +65,12 @@ seeUserCommentsButton.addEventListener('click', () => {
 
             commentTable.appendChild(tableBody);
 
-            document.body.appendChild(commentTable);
+            const headingBookmark = document.createElement('h2');
+            headingBookmark.innerText = "My Comments";
+            const outputDiv = document.getElementById('tableResultSection');
+
+            outputDiv.appendChild(headingBookmark);
+            outputDiv.appendChild(commentTable);
 
 
             seeUserCommentsButton.style.display = "none";
@@ -76,10 +97,26 @@ seeUserPostsButton.addEventListener('click', () => {
             const postTable = document.createElement('table');
             postTable.setAttribute('id', 'user-posts');
 
-            // Append table body to table
-            const tableBody = document.createElement('tbody');
+            // Append table head to table 
+            const headers = ['Title', 'Created At'];
+
+            const tableHead = document.createElement('thead');
             let tableRow = document.createElement('tr');
             let tableData;
+            let tableHeadings;
+            for(let i = 0; i<headers.length; i++)
+            {
+                tableHeadings = document.createElement('th');
+                tableHeadings.innerText = headers[i];
+                tableRow.appendChild(tableHeadings);
+            }
+
+            tableHead.appendChild(tableRow);
+            postTable.appendChild(tableHead);
+            
+            // Append table body to table
+            const tableBody = document.createElement('tbody');
+            tableRow = document.createElement('tr');
 
             for(let i = 0; i < theResponse.payload.length; i++)
             {
@@ -98,7 +135,12 @@ seeUserPostsButton.addEventListener('click', () => {
 
             postTable.appendChild(tableBody);
 
-            document.body.appendChild(postTable);
+            const headingBookmark = document.createElement('h2');
+            headingBookmark.innerText = "My Posts";
+            const outputDiv = document.getElementById('tableResultSection');
+
+            outputDiv.appendChild(headingBookmark);
+            outputDiv.appendChild(postTable);
 
 
             seeUserPostsButton.style.display = "none";
@@ -125,10 +167,27 @@ commentVotesButton.addEventListener('click', () => {
             const commentTable = document.createElement('table');
             commentTable.setAttribute('id', 'user-comment-votes');
 
-            // Append table body to table
-            const tableBody = document.createElement('tbody');
+            // Append table head to table 
+            const headers = ['Comment', 'Created At'];
+
+            const tableHead = document.createElement('thead');
             let tableRow = document.createElement('tr');
             let tableData;
+            let tableHeadings;
+            for(let i = 0; i<headers.length; i++)
+            {
+                tableHeadings = document.createElement('th');
+                tableHeadings.innerText = headers[i];
+                tableRow.appendChild(tableHeadings);
+            }
+
+            tableHead.appendChild(tableRow);
+            commentTable.appendChild(tableHead);
+
+            // Append table body to table
+            const tableBody = document.createElement('tbody');
+            tableRow = document.createElement('tr');
+
 
             for(let i = 0; i < theResponse.payload.length; i++)
             {
@@ -147,8 +206,12 @@ commentVotesButton.addEventListener('click', () => {
 
             commentTable.appendChild(tableBody);
 
-            document.body.appendChild(commentTable);
+            const headingBookmark = document.createElement('h2');
+            headingBookmark.innerText = "Comment Votes";
+            const outputDiv = document.getElementById('tableResultSection');
 
+            outputDiv.appendChild(headingBookmark);
+            outputDiv.appendChild(commentTable);
 
             commentVotesButton.style.display = "none";
         })
@@ -175,10 +238,26 @@ postVotesButton.addEventListener('click', () => {
             const postTable = document.createElement('table');
             postTable.setAttribute('id', 'user-post-votes');
 
-            // Append table body to table
-            const tableBody = document.createElement('tbody');
+            // Append table head to table 
+            const headers = ['Post Title', 'Created At'];
+
+            const tableHead = document.createElement('thead');
             let tableRow = document.createElement('tr');
             let tableData;
+            let tableHeadings;
+            for(let i = 0; i<headers.length; i++)
+            {
+                tableHeadings = document.createElement('th');
+                tableHeadings.innerText = headers[i];
+                tableRow.appendChild(tableHeadings);
+            }
+
+            tableHead.appendChild(tableRow);
+            postTable.appendChild(tableHead);
+            
+            // Append table body to table
+            const tableBody = document.createElement('tbody');
+            tableRow = document.createElement('tr');
 
             for(let i = 0; i < theResponse.payload.length; i++)
             {
@@ -197,8 +276,12 @@ postVotesButton.addEventListener('click', () => {
 
             postTable.appendChild(tableBody);
 
-            document.body.appendChild(postTable);
+            const headingBookmark = document.createElement('h2');
+            headingBookmark.innerText = "Post Votes";
+            const outputDiv = document.getElementById('tableResultSection');
 
+            outputDiv.appendChild(headingBookmark);
+            outputDiv.appendChild(postTable);
 
             postVotesButton.style.display = "none";
         })
@@ -227,10 +310,27 @@ commentBookmarksButton.addEventListener('click', () => {
             const commentTable = document.createElement('table');
             commentTable.setAttribute('id', 'user-comment-bookmarks');
 
-            // Append table body to table
-            const tableBody = document.createElement('tbody');
+
+            // Append table head to table 
+            const headers = ['Comment', 'Post Title', 'Created At', 'Created by'];
+
+            const tableHead = document.createElement('thead');
             let tableRow = document.createElement('tr');
             let tableData;
+            let tableHeadings;
+            for(let i = 0; i<headers.length; i++)
+            {
+                tableHeadings = document.createElement('th');
+                tableHeadings.innerText = headers[i];
+                tableRow.appendChild(tableHeadings);
+            }
+            
+            tableHead.appendChild(tableRow);
+            commentTable.appendChild(tableHead);
+
+            // Append table body to table
+            const tableBody = document.createElement('tbody');
+            tableRow = document.createElement('tr');
 
             for(let i = 0; i < theResponse.payload.length; i++)
             {
@@ -258,8 +358,12 @@ commentBookmarksButton.addEventListener('click', () => {
 
             commentTable.appendChild(tableBody);
 
-            document.body.appendChild(commentTable);
+            const headingBookmark = document.createElement('h2');
+            headingBookmark.innerText = "Bookmarked Comments";
+            const outputDiv = document.getElementById('tableResultSection');
 
+            outputDiv.appendChild(headingBookmark);
+            outputDiv.appendChild(commentTable);
 
             commentBookmarksButton.style.display = "none";
 
@@ -286,21 +390,21 @@ postBookmarksButton.addEventListener('click', () =>{
                 postTable.setAttribute('id', 'user-post-bookmarks');
 
                 // Append table head to table 
-                const headers = ['Title', 'Created At', 'Username'];
+                const headers = ['Title', 'Created At', 'Created by'];
 
-                //const tableHead = document.createElement('thead');
+                const tableHead = document.createElement('thead');
                 let tableRow = document.createElement('tr');
                 let tableData;
-
-                // for(let i = 0; i<headers.length; i++)
-                // {
-                //     tableData = document.createElement('th');
-                //     tableData.innerText = headers[i];
-                //     tableRow.appendChild(tableData);
-                // }
+                let tableHeadings;
+                for(let i = 0; i<headers.length; i++)
+                {
+                    tableHeadings = document.createElement('th');
+                    tableHeadings.innerText = headers[i];
+                    tableRow.appendChild(tableHeadings);
+                }
                 
-                // tableHead.appendChild(tableRow);
-                // postTable.appendChild(tableHead);
+                tableHead.appendChild(tableRow);
+                postTable.appendChild(tableHead);
 
 
                 // Append table body to table
@@ -327,7 +431,13 @@ postBookmarksButton.addEventListener('click', () =>{
 
                 postTable.appendChild(tableBody);
 
-                document.body.appendChild(postTable);
+                const headingBookmark = document.createElement('h2');
+                headingBookmark.innerText = "Bookmarked Posts";
+                const outputDiv = document.getElementById('tableResultSection');
+
+                outputDiv.appendChild(headingBookmark);
+                outputDiv.appendChild(postTable);
+                
 
 
                 postBookmarksButton.style.display = "none";

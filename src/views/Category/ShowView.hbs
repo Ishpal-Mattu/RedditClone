@@ -1,25 +1,49 @@
 {{>Partials/Header}}
+<link rel="stylesheet" href="../../../public/styles/categoryView.css">
 
-<p id="category-title"> {{payload.title}} </p>
+<h1 id="category-title"> {{payload.title}} </h1>
 <p id="category-description"> {{payload.description}} </p>
 
 {{#unless isCatDeleted}}
 {{#if isLoggedIn}}
-<a href="{{ path 'category/{id}/edit' payload.id }}">edit category</a>
-<form action="{{ path 'category/{id}' payload.id }}" method="POST" id="delete-category-form">
-    <input type="hidden" name="method" value="DELETE">
-    <button>delete category</button>
-</form>
+<div id="editInfo">
+    <a class="editCatBtn" href="{{ path 'category/{id}/edit' payload.id }}">edit category</a>
+    <form action="{{ path 'category/{id}' payload.id }}" method="POST" id="delete-category-form">
+        <input type="hidden" name="method" value="DELETE">
+        <button class="editCatBtn">delete category</button>
+    </form>
+</div>
+
 {{/if}}
 {{/unless}}
 
 <table id="posts">
+    <thead>
+        <th>Votes</th>
+        <th>Title</th>
+        <th>Date Created</th>
+        <th>Written By</th>
+        <th>Deleted</th>
+    </thead>
     <tbody>
 
         {{#each posts}}
             
                 <tr post-id="{{id}}">
-                    <td> {{ title }}</td>
+                    <td>
+                        {{#if ../isLoggedIn}}
+                        <button class="post-upvote-button" post-id="{{id}}">Up vote</button>
+                        {{/if}} 
+
+                        <P class="post-votes" post-id="{{id}}">{{totalVotes}}</P>
+
+                        {{#if ../isLoggedIn}}
+                        <button class="post-downvote-button" post-id="{{id}}">Down vote</button>
+                        {{/if}} 
+
+                    </td>                        
+                      
+                    <td> <a href="http://localhost:8000/post/{{id}}">{{ title }}</a></td>
                     <td> {{ createdAt }}</td>
                     <td> {{ user.username }}</td>
                     {{#if isDeleted}}
@@ -27,14 +51,6 @@
                     {{else}}
                     <td>No</td>
                     {{/if}}
-                    <td><a href="http://localhost:8000/post/{{id}}">See post</a></td> 
-
-                    {{#if ../isLoggedIn}}
-                    <td><button class="post-upvote-button" post-id="{{id}}">Up vote</button></td>
-                            
-                    <td><button class="post-downvote-button" post-id="{{id}}">Down vote</button></td> 
-                    {{/if}}   
-                    <td class="post-votes" post-id="{{id}}">{{totalVotes}}</td>      
                 </tr>
             
             
