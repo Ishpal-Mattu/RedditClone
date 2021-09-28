@@ -8,7 +8,10 @@
     <input type="text" name="email" value="{{email}}" placeholder="Enter Email Address">
     <input type="password" name="password" placeholder="Enter Password">
     {{#if isRemembered}}
-    <input type="checkbox" name="remember" checked>
+    <div>
+        <input type="checkbox" name="remember" id="rememberUserCheck" checked>
+        <label for="rememberUserCheck">Remember Username?</label>
+    </div>
     {{else}}
     <div>
         <input type="checkbox" name="remember" id="rememberUserCheck">

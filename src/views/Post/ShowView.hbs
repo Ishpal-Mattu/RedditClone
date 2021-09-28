@@ -76,7 +76,6 @@
 {{#if isLoggedIn}}
 <form action={{path 'comment'}} method="POST" id="new-comment-form">
     <input type="hidden" name="postId" value="{{ payload.id }}">
-    <input type="text" name="userId" placeholder="Enter user id">
     {{!-- <input type="hidden" name="replyId" value=> --}}
     <textarea name="content" cols="30" rows="10" placeholder="Enter comment"></textarea>
     <button>Add Comment</button>
